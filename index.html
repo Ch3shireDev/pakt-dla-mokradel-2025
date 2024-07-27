@@ -31,7 +31,7 @@
         background: rgb(42, 72, 0);
     }
 
-    #header-date{
+    #header-date {
         background: hsla(85, 50%, 25%, 0.637);
         border-radius: 5px;
     }
@@ -102,7 +102,7 @@
 <body class="d-flex flex-column">
     <div class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow" style="max-width: 800px;">
         <div id="header" class="position-relative">
-          <h1 class="position-absolute top-0 end-0 py-2 px-3 text-light" id="header-date">Poznań, 3-5 lutego 2025</h1>
+            <h1 class="position-absolute top-0 end-0 py-2 px-3 text-light" id="header-date">Poznań, 3-5 lutego 2025</h1>
             <h1 class="position-absolute bottom-0 mb-3 text-light fw-bolder ms-3" id="title">Pakt dla Mokradeł</h1>
             <img id="header" src="assets/front-image-low-res.jpg" width="100%">
         </div>
@@ -236,7 +236,8 @@
 
     <script defer>
         function updatePage() {
-            const hash = window.location.hash;
+            const parts = window.location.hash.split('/');
+            const hash = parts[parts.length - 1] || '#home';
             const navItems = document.querySelectorAll('.nav-link');
             $('section').hide();
             navItems.forEach(item => {
