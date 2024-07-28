@@ -27,17 +27,17 @@ https://drive.google.com/file/d/1IxGNg6OycQydMmjEbQ9jYKQgcrD1XArH/view?usp=shari
 - [x] Zrobić zakładki
 - [x] Zrobić dynamiczne wczytywanie zdjęć
 - [x] Dodać placeholderową treść
-- [ ] Dodać opis dla załączników w Messengerze, WhatsAppie, Facebooku, Twixerze
-- [ ] Dodać plik robots.txt
-- [ ] Dodać meta description
-- [ ] Uzupełnić canonical
-- [ ] Rozwiązać problem mobile version url
+- [x] Dodać opis dla załączników w Messengerze, WhatsAppie, Facebooku, Twixerze
+- [x] Dodać plik robots.txt
+- [x] Dodać meta description
+- [x] Uzupełnić canonical
+- [x] Rozwiązać problem mobile version url
+- [x] Dodać lepszy opis pod H1
+- [x] Dodać alt do zdjęć
+- [x] Dodać favicon
 - [ ] Zoptymalizować stronę dla IE Mobile
 - [ ] Dodać tag 'handheld friendly'
 - [ ] Dodać Apple Touch Icon
 - [ ] Dodać Apple Startup Icon
-- [ ] Dodać alt do zdjęć
-- [ ] Dodać favicon
 - [ ] Use 301 redirects to drive traffic to URLS with the same domain and sub domain (www and non-www subdomain).
-- [ ] Dodać lepszy opis pod H1
 - [ ] The redirect to https for this site is not configured correctly. This website uses URLs with www and non-www subdomain. This may cause duplicate content and bad links to your website. Redirect Checker
