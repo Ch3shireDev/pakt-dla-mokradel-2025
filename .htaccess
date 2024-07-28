@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Przekierowanie z www na non-www
+RewriteCond %{HTTP_HOST} ^www\.twojastrona\.pl [NC]
+RewriteRule ^(.*)$ http://twojastrona.pl/$1 [L,R=301]
