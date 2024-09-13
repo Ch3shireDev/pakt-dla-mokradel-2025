@@ -70,7 +70,7 @@
     }
 
     .sponsor-image {
-        height: 50px;
+        height: 80px;
         object-fit: cover;
         object-position: 0 0;
         margin: 1rem;
@@ -122,10 +122,20 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+
+    #footer{
+        min-height: 100px;
+    }
+
+    @media (min-width:800px){
+        #main{
+            width: 800px;
+        }
+    }
 </style>
 
 <body class="d-flex flex-column">
-    <div class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow" style="max-width: 800px;">
+    <div id="main" class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow" style="max-width: 800px;">
         <div id="header" class="position-relative">
             <h2 class="position-absolute top-0 end-0 py-2 px-3 text-light" id="header-date">Poznań, 3-5 lutego 2025</h2>
             <h1 class="position-absolute bottom-0 mb-3 text-light fw-bolder ms-3" id="title">Pakt dla Mokradeł</h1>
@@ -150,34 +160,43 @@
         <div class="main px-md-5 px-2 flex-fill m-0" id="main-content">
             <section id="home">
                 <h5>Witaj na stronie konferencji Pakt dla Mokradeł!</h5>
-                <p>Konferencja odbędzie się w przyszłym roku, w dniach 3-5 lutego, w Poznaniu. To wyjątkowe wydarzenie
-                    zgromadzi ekspertów, naukowców, oraz pasjonatów ochrony środowiska z całego świata, by wspólnie
-                    omawiać
-                    najnowsze osiągnięcia i wyzwania związane z ochroną i zrównoważonym zarządzaniem mokradłami.</p>
-                <p>W programie m.in.:</p>
-                <ul>
-                    <li><b>Prelekcje:</b> Inspirujące wykłady prowadzone przez uznanych specjalistów w dziedzinie
-                        ochrony
-                        mokradeł.</li>
-                    <li><b>Sesje plakatowe:</b> Przegląd najnowszych badań i projektów, które przyczyniają się do
-                        ochrony
-                        mokradeł.</li>
-                    <li><b>Spotkania z ekspertami:</b> Możliwość bezpośredniej wymiany doświadczeń i wiedzy z liderami w
-                        branży.</li>
-                    <li><b>Panel dyskusyjny:</b> Gorące debaty na temat przyszłości mokradeł i strategii ich ochrony w
-                        obliczu zmian klimatycznych.</li>
-                </ul>
-                <p>Ponadto, na uczestników czeka wiele dodatkowych atrakcji, w tym warsztaty, wystawy tematyczne, oraz
-                    okazje do nawiązania cennych kontaktów zawodowych.</p>
-                <p>Szczegółowy program oraz lista prelegentów zostaną opublikowane wkrótce.</p>
-                <p>Do zobaczenia!</p>
+
+                <p>
+                    Serdecznie zapraszamy na drugą edycję konferencji Pakt dla Mokradeł, której celem będzie dyskusja
+                    nad kluczową rolą, jaką mokradła odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany
+                    klimatu i utrzymaniu usług ekosystemowych.
+                </p>
+                <p>
+                    Niniejsze spotkanie naukowców i praktyków ma integrować ekspertów, naukowców, przedstawicieli
+                    administracji państwowej i organizacji pozarządowych, aktywistów, przedstawicieli biznesu oraz
+                    pasjonatów ochrony środowiska, aby umożliwić wymianę wiedzy oraz stworzyć przestrzeń do dyskusji
+                    nad aktualnymi problemami i wyzwaniami w ochronie mokradeł, projektach odtwarzania,
+                    zagospodarowania, oraz ramach politycznych niezbędnych do ochrony tych wyjątkowych
+                    ekosystemów.
+                </p>
+                <p>
+                    Będziemy rozmawiać o torfowiskach, rzekach, jeziorach, obszarach nadmorskich, mokradłach
+                    miejskich, leśnych oraz tych w krajobrazie rolniczym. Sesje będą poświęcone m.in. zmianie klimatu,
+                    globalnemu ociepleniu, paleoklimatologii, paleoekologii, archeologii mokradeł, monitoringowi
+                    przyrodniczemu, badaniom eksperymentalnym, ochronie mokradeł w lasach, aktom prawnym, m.in.
+                    Nature Restoration Law, Green Deal, restytucji mokradeł, rolnictwu bagiennemu oraz usługom
+                    ekosystemowym.
+                </p>
+                <p>
+                    Uczestnicy będą mieli okazję wziąć udział w wykładach, sesjach posterowych, spotkaniach z
+                    ekspertami, panelach dyskusyjnych, warsztatach i wystawach tematycznych. Jest to wyjątkowa okazja
+                    do nawiązania kontaktów i współpracy nad innowacyjnymi rozwiązaniami na rzecz ochrony mokradeł
+                    dla przyszłych pokoleń.
+                </p>
+                <p>Zachęcamy do rejestracji poprzez formularz w zakładce <a href="#registration">Zgłoszenia</a>.</p>
+                <p><b>Komitet organizacyjny</b></p>
+
             </section>
             <section id="news">
                 <h5>Aktualności</h5>
-                <p>Bądź na bieżąco z najnowszymi informacjami dotyczącymi konferencji!</p>
-                <p>W tej sekcji znajdziesz aktualności związane z przygotowaniami, ogłoszenia o nowych prelegentach,
-                    partnerach oraz ważne terminy i wydarzenia towarzyszące.</p>
-                <p>Regularnie odwiedzaj tę stronę, aby nie przegapić żadnych istotnych informacji.</p>
+                <ul>
+                    <li><a href="/docs/KOMUNIKAT_1_PAKT_2025.pdf">Komunikat PAKT 2025</a></li>
+                </ul>
             </section>
             <section id="program">
                 <h5>Program</h5>
@@ -197,12 +216,8 @@
             </section>
             <section id="registration">
                 <h5>Zgłoszenia</h5>
-                <p>Jeśli chcesz wziąć aktywny udział w konferencji Pakt dla Mokradeł, zapraszamy do zgłaszania
-                    swoich
-                    prelekcji, plakatów oraz udziału w panelach dyskusyjnych.</p>
-                <p>Formularze zgłoszeniowe oraz szczegółowe informacje na temat warunków i terminów znajdziesz w tej
-                    sekcji.</p>
-                <p>Nie zwlekaj, zgłoś się już dziś i podziel się swoją wiedzą oraz doświadczeniem z innymi!</p>
+                <p>Jeśli chcesz wziąć udział w konferencji Pakt dla Mokradeł, zapraszamy do wypełnienia <a href="
+                    https://docs.google.com/forms/d/e/1FAIpQLSdrOOe3vEtYVIZoZ_Rnyqd6YwouZKaA62dcPZ0mAbCynuHKIA/viewform?usp=sf_link">formularza zgłoszeniowego.</a></p>
             </section>
             <section id="speakers">
                 <h5>Prelegenci</h5>
@@ -221,15 +236,33 @@
                 <p>W tej sekcji znajdziesz informacje o naszych sponsorach, którzy wspierają ochronę mokradeł i
                     zrównoważony rozwój.</p>
                 <p>Chcesz dołączyć do grona sponsorów? Skontaktuj się z nami!</p>
-                <p><b>Kontakt: </b><a href="mailto:konferencja-pakt@amu.edu.pl">konferencja-pakt@amu.edu.pl</a></p>
+                <p><b>Kontakt: </b><a href="mailto:paktdlamokradel2025@gmail.com">paktdlamokradel2025@gmail.com</a></p>
             </section>
             <section id="organizing-commitee">
                 <h5>Komitet organizacyjny</h5>
-                <p>Komitet organizacyjny konferencji Pakt dla Mokradeł składa się z doświadczonych profesjonalistów,
-                    którzy z zaangażowaniem pracują nad przygotowaniem tego wyjątkowego wydarzenia.</p>
-                <p>Poznaj osoby odpowiedzialne za organizację konferencji, które dbają o każdy szczegół, aby
-                    zapewnić
-                    uczestnikom jak najlepsze doświadczenia.</p>
+
+<ul>
+<li>Mariusz Lamentowicz</li>
+<li>Bogdan H. Chojnicki</li>
+</ul>
+oraz
+<ul>
+<li>Mariusz Bąk</li>
+<li>Mateusz Draga</li>
+<li>Kamila M. Harenda</li>
+<li>Monika Karpińska-Kołaczek</li>
+<li>Piotr Kołaczek</li>
+<li>Hanna Machejek</li>
+<li>Katarzyna Marcisz</li>
+<li>Jakub Niebieszczański</li>
+<li>Patryk Poczta</li>
+<li>Witold Szambelan</li>
+<li>Daria Wochal</li>
+<li>Danuta Żurkiewicz</li>
+</ul>
+
+Strategicznym Partnerem Konferencji jest Centrum Ochrony Mokradeł.
+
             </section>
             <section id="scientific-commitee">
                 <h5>Komitet naukowy</h5>
@@ -243,21 +276,7 @@
         </div>
 
         <div id="footer">
-            <img class="sponsor-image" src="assets/uw.webp" alt="Logo Uniwersytetu Warszawskiego">
-            <img class="sponsor-image" src="assets/cmok.svg" alt="Logo Centrum Ochrony Mokradeł">
-            <img class="sponsor-image" src="assets/CNBCh.webp" alt="Logo CNBCh">
-            <img class="sponsor-image" src="assets/cumulus.webp" alt="Logo Cumulus">
-            <img class="sponsor-image" src="assets/force.webp" alt="Logo FORCE">
-            <img class="sponsor-image" src="assets/fuw.webp" alt="Logo Wydziału Fizyki UW">
-            <img class="sponsor-image" src="assets/inicjatywa-poziom-v2.svg" alt="Logo Inicjatywy Doskonałości">
-            <img class="sponsor-image" src="assets/kampinoski-park-narodowy.webp"
-                alt="Logo Kampinoskiego Parku Narodowego">
-            <img class="sponsor-image" src="assets/national-science-centre.webp" alt="Logo National Science Centre">
-            <img class="sponsor-image" src="assets/norway-grants.webp" alt="Logo Norway Grants">
-            <img class="sponsor-image" src="assets/ramsar.svg" alt="Logo Ramsar">
-            <img class="sponsor-image" src="assets/rec-polska.webp" alt="Logo Regionalnego Centrum Ekologicznego">
-            <img class="sponsor-image" src="assets/wetlands.webp" alt="Logo Wetlands International">
-            <img class="sponsor-image" src="assets/wydzial-biologii-uw.webp" alt="Logo Wydziału Biologii UW">
+
         </div>
     </div>
 
