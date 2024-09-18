@@ -1,306 +1,446 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pakt dla Mokradeł - Konferencja 2025</title>
 
-    <meta name="description" content="Strona konferencji Pakt dla Mokradeł 2025.">
+    <meta
+      name="description"
+      content="Strona konferencji Pakt dla Mokradeł 2025."
+    />
 
-    <meta property="og:title" content="Pakt dla Mokradeł 2025">
-    <meta property="og:description" content="Strona konferencji Pakt dla Mokradeł 2025.">
-    <meta property="og:image" content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg">
-    <meta property="og:url" content="https://pakt-dla-mokradel.pl">
-    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pakt dla Mokradeł 2025" />
+    <meta
+      property="og:description"
+      content="Strona konferencji Pakt dla Mokradeł 2025."
+    />
+    <meta
+      property="og:image"
+      content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg"
+    />
+    <meta property="og:url" content="https://pakt-dla-mokradel.pl" />
+    <meta property="og:type" content="website" />
 
-    <meta name="twitter:card" content="assets/front-image-low-res.jpg">
-    <meta name="twitter:title" content="Pakt dla Mokradeł 2025">
-    <meta name="twitter:description" content="Strona konferencji Pakt dla Mokradeł 2025.">
-    <meta name="twitter:image" content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg">
-    <meta name="twitter:url" content="https://pakt-dla-mokradel.pl">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="twitter:card" content="assets/front-image-low-res.jpg" />
+    <meta name="twitter:title" content="Pakt dla Mokradeł 2025" />
+    <meta
+      name="twitter:description"
+      content="Strona konferencji Pakt dla Mokradeł 2025."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg"
+    />
+    <meta name="twitter:url" content="https://pakt-dla-mokradel.pl" />
 
-    <link rel="canonical" href="https://pakt-dla-mokradel.pl/index.html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://pakt-dla-mokradel.pl/index.html" />
 
-    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://pakt-dla-mokradel.pl">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
-        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-</head>
+    <link
+      rel="alternate"
+      media="only screen and (max-width: 640px)"
+      href="https://pakt-dla-mokradel.pl"
+    />
 
-<style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
     body {
-        background-color: hsl(120, 70%, 92%);
+      background-color: hsl(120, 70%, 92%);
     }
 
     html,
     body {
-        height: 100%;
+      height: 100%;
     }
 
     #header {
-        height: 20vh;
-        object-fit: cover;
-        object-position: 0 0;
-        background: rgb(42, 72, 0);
+      height: 20vh;
+      object-fit: cover;
+      object-position: 0 0;
+      background: rgb(42, 72, 0);
     }
 
     #header-date {
-        background: hsla(85, 50%, 25%, 0.637);
-        border-radius: 5px;
+      background: hsla(85, 50%, 25%, 0.637);
+      border-radius: 5px;
     }
 
     .container {
-        background: whitesmoke;
+      background: whitesmoke;
     }
 
     #footer {
-        background: #f9f6e7;
-        text-align: center;
+      background: #f9f6e7;
+      text-align: center;
     }
 
     .sponsor-image {
-        height: 80px;
-        object-fit: cover;
-        object-position: 0 0;
-        margin: 1rem;
+      height: 80px;
+      object-fit: cover;
+      object-position: 0 0;
+      margin: 1rem;
     }
 
     .main {
-        background: whitesmoke;
-        width: 100%;
-
+      background: whitesmoke;
+      width: 100%;
     }
 
     h1,
     h2 {
-        font-size: 1.3rem;
-        font-weight: 700;
+      font-size: 1.3rem;
+      font-weight: 700;
     }
 
     .nav-container {
-        background: hsl(120, 10%, 90%);
+      background: hsl(120, 10%, 90%);
     }
 
     #title {
-        text-shadow: 0 0 1rem black;
+      text-shadow: 0 0 1rem black;
     }
 
     p {
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        white-space: normal;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      white-space: normal;
     }
 
     #title {
-        font-size: 2.5rem;
+      font-size: 2.5rem;
     }
 
     h5 {
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
     .nav-link {
-        font-size: 0.8rem;
-        padding-left: 0.6rem;
-        padding-right: 0.6rem;
+      font-size: 0.8rem;
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
     }
 
     section {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
 
-    #footer{
-        min-height: 100px;
+    #footer {
+      min-height: 100px;
     }
 
-    @media (min-width:800px){
-        #main{
-            width: 800px;
-        }
+    @media (min-width: 800px) {
+      #main {
+        width: 800px;
+      }
     }
-</style>
+  </style>
 
-<body class="d-flex flex-column">
-    <div id="main" class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow" style="max-width: 800px;">
-        <div id="header" class="position-relative">
-            <h2 class="position-absolute top-0 end-0 py-2 px-3 text-light" id="header-date">Poznań, 3-5 lutego 2025</h2>
-            <h1 class="position-absolute bottom-0 mb-3 text-light fw-bolder ms-3" id="title">Pakt dla Mokradeł</h1>
-            <img alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami" id="header"
-                src="assets/front-image-low-res.jpg" width="100%">
-        </div>
-        <div class="pt-1 nav-container">
-            <ul class="nav nav-tabs">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Konferencja</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="#news">Aktualności</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="#program">Program</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="#registration">Zgłoszenia</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="#speakers">Prelegenci</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="#sponsors">Sponsorzy</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page"
-                        href="#organizing-commitee">Organizatorzy</a></li>
-                <li class="nav-item"><a class="nav-link" aria-current="page" href="#scientific-commitee">Komitet
-                        naukowy</a></li>
-            </ul>
-        </div>
+  <body class="d-flex flex-column">
+    <div
+      id="main"
+      class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow"
+      style="max-width: 800px"
+    >
+      <div id="header" class="position-relative">
+        <h2
+          class="position-absolute top-0 end-0 py-2 px-3 text-light"
+          id="header-date"
+        >
+          Poznań, 3-5 lutego 2025
+        </h2>
+        <h1
+          class="position-absolute bottom-0 mb-3 text-light fw-bolder ms-3"
+          id="title"
+        >
+          Pakt dla Mokradeł
+        </h1>
+        <img
+          alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
+          id="header"
+          src="assets/front-image-low-res.jpg"
+          width="100%"
+        />
+      </div>
+      <div class="pt-1 nav-container">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home"
+              >Konferencja</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#news">Aktualności</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#program">Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#registration"
+              >Zgłoszenia</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#speakers"
+              >Prelegenci</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#organizing-commitee"
+              >Organizatorzy</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#scientific-commitee"
+              >Komitet naukowy</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#sponsors"
+              >Sponsorzy</a
+            >
+          </li>
+        </ul>
+      </div>
 
-        <div class="main px-md-5 px-2 flex-fill m-0" id="main-content">
-            <section id="home">
-                <h5>Witaj na stronie konferencji Pakt dla Mokradeł!</h5>
+      <div class="main px-md-5 px-2 flex-fill m-0" id="main-content">
+        <section id="home">
+          <h5>Witaj na stronie konferencji Pakt dla Mokradeł!</h5>
 
-                <p>
-                    Serdecznie zapraszamy na drugą edycję konferencji Pakt dla Mokradeł, której celem będzie dyskusja
-                    nad kluczową rolą, jaką mokradła odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany
-                    klimatu i utrzymaniu usług ekosystemowych.
-                </p>
-                <p>
-                    Niniejsze spotkanie naukowców i praktyków ma integrować ekspertów, naukowców, przedstawicieli
-                    administracji państwowej i organizacji pozarządowych, aktywistów, przedstawicieli biznesu oraz
-                    pasjonatów ochrony środowiska, aby umożliwić wymianę wiedzy oraz stworzyć przestrzeń do dyskusji
-                    nad aktualnymi problemami i wyzwaniami w ochronie mokradeł, projektach odtwarzania,
-                    zagospodarowania, oraz ramach politycznych niezbędnych do ochrony tych wyjątkowych
-                    ekosystemów.
-                </p>
-                <p>
-                    Będziemy rozmawiać o torfowiskach, rzekach, jeziorach, obszarach nadmorskich, mokradłach
-                    miejskich, leśnych oraz tych w krajobrazie rolniczym. Sesje będą poświęcone m.in. zmianie klimatu,
-                    globalnemu ociepleniu, paleoklimatologii, paleoekologii, archeologii mokradeł, monitoringowi
-                    przyrodniczemu, badaniom eksperymentalnym, ochronie mokradeł w lasach, aktom prawnym, m.in.
-                    Nature Restoration Law, Green Deal, restytucji mokradeł, rolnictwu bagiennemu oraz usługom
-                    ekosystemowym.
-                </p>
-                <p>
-                    Uczestnicy będą mieli okazję wziąć udział w wykładach, sesjach posterowych, spotkaniach z
-                    ekspertami, panelach dyskusyjnych, warsztatach i wystawach tematycznych. Jest to wyjątkowa okazja
-                    do nawiązania kontaktów i współpracy nad innowacyjnymi rozwiązaniami na rzecz ochrony mokradeł
-                    dla przyszłych pokoleń.
-                </p>
-                <p>Zachęcamy do rejestracji poprzez formularz w zakładce <a href="#registration">Zgłoszenia</a>.</p>
-                <p><b>Komitet organizacyjny</b></p>
+          <p>
+            Serdecznie zapraszamy na drugą edycję konferencji Pakt dla Mokradeł,
+            której celem będzie dyskusja nad kluczową rolą, jaką mokradła
+            odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany
+            klimatu i utrzymaniu usług ekosystemowych.
+          </p>
+          <p>
+            Niniejsze spotkanie naukowców i praktyków ma integrować ekspertów,
+            naukowców, przedstawicieli administracji państwowej i organizacji
+            pozarządowych, aktywistów, przedstawicieli biznesu oraz pasjonatów
+            ochrony środowiska, aby umożliwić wymianę wiedzy oraz stworzyć
+            przestrzeń do dyskusji nad aktualnymi problemami i wyzwaniami w
+            ochronie mokradeł, projektach odtwarzania, zagospodarowania, oraz
+            ramach politycznych niezbędnych do ochrony tych wyjątkowych
+            ekosystemów.
+          </p>
+          <p>
+            Będziemy rozmawiać o torfowiskach, rzekach, jeziorach, obszarach
+            nadmorskich, mokradłach miejskich, leśnych oraz tych w krajobrazie
+            rolniczym. Sesje będą poświęcone m.in. zmianie klimatu, globalnemu
+            ociepleniu, paleoklimatologii, paleoekologii, archeologii mokradeł,
+            monitoringowi przyrodniczemu, badaniom eksperymentalnym, ochronie
+            mokradeł w lasach, aktom prawnym, m.in. Nature Restoration Law,
+            Green Deal, restytucji mokradeł, rolnictwu bagiennemu oraz usługom
+            ekosystemowym.
+          </p>
+          <p>
+            Uczestnicy będą mieli okazję wziąć udział w wykładach, sesjach
+            posterowych, spotkaniach z ekspertami, panelach dyskusyjnych,
+            warsztatach i wystawach tematycznych. Jest to wyjątkowa okazja do
+            nawiązania kontaktów i współpracy nad innowacyjnymi rozwiązaniami na
+            rzecz ochrony mokradeł dla przyszłych pokoleń.
+          </p>
+          <p>
+            Zachęcamy do rejestracji poprzez formularz w zakładce
+            <a href="#registration">Zgłoszenia</a>.
+          </p>
+          <p style="font-weight: 500;">Komitet organizacyjny</p>
+        </section>
+        <section id="news">
+          <h5>Aktualności</h5>
+          <ul>
+            <li>
+              <a href="/docs/KOMUNIKAT_1_PAKT_2025.pdf">Komunikat PAKT 2025</a>
+            </li>
+          </ul>
+        </section>
+        <section id="program">
+          <h5>Program</h5>
+          <p>
+            Nasz program został starannie zaplanowany, aby zapewnić uczestnikom
+            jak najwięcej wartościowych informacji i doświadczeń. W ciągu trzech
+            dni konferencji odbędą się:
+          </p>
+          <ul>
+            <li>
+              <strong>Prelekcje:</strong> Wystąpienia ekspertów, którzy podzielą
+              się swoimi najnowszymi badaniami i doświadczeniami.
+            </li>
+            <li>
+              <strong>Sesje plakatowe:</strong> Prezentacje plakatowe, na
+              których uczestnicy będą mogli zapoznać się z różnorodnymi
+              projektami i badaniami.
+            </li>
+            <li>
+              <strong>Spotkania z ekspertami:</strong> Okazje do bezpośredniej
+              wymiany wiedzy i doświadczeń z liderami w dziedzinie ochrony
+              mokradeł.
+            </li>
+            <li>
+              <strong>Panele dyskusyjne:</strong> Żywe debaty na temat
+              kluczowych wyzwań i przyszłości mokradeł.
+            </li>
+          </ul>
+          <p>
+            Szczegółowy harmonogram konferencji zostanie opublikowany wkrótce.
+          </p>
+        </section>
+        <section id="registration">
+          <h5>Zgłoszenia</h5>
+          <p>
+            Jeśli chcesz wziąć udział w konferencji Pakt dla Mokradeł,
+            zapraszamy do wypełnienia
+            <a
+              href="
+                    https://docs.google.com/forms/d/e/1FAIpQLSdrOOe3vEtYVIZoZ_Rnyqd6YwouZKaA62dcPZ0mAbCynuHKIA/viewform?usp=sf_link"
+              >formularza zgłoszeniowego.</a
+            >
+          </p>
+        </section>
+        <section id="speakers">
+          <h5>Prelegenci</h5>
+          <p>Poznaj naszych prelegentów!</p>
+          <p>
+            W tej sekcji będziemy przedstawiać sylwetki wyjątkowych
+            specjalistów, którzy podzielą się swoją wiedzą i doświadczeniem
+            podczas konferencji.
+          </p>
+          <p>
+            Dowiedz się więcej o ich osiągnięciach i tematach, które będą
+            poruszane w trakcie ich wystąpień.
+          </p>
+          <p>Lista prelegentów będzie na bieżąco aktualizowana.</p>
+        </section>
+        <section id="sponsors">
+          <h5>Sponsorzy</h5>
+          <p>
+            Konferencja Pakt dla Mokradeł nie mogłaby się odbyć bez wsparcia
+            naszych sponsorów.
+          </p>
+          <p>
+            Dzięki ich zaangażowaniu możemy zapewnić wysoki poziom merytoryczny
+            wydarzenia oraz komfort dla wszystkich uczestników.
+          </p>
+          <p>
+            W tej sekcji znajdziesz informacje o naszych sponsorach, którzy
+            wspierają ochronę mokradeł i zrównoważony rozwój.
+          </p>
+          <p>Chcesz dołączyć do grona sponsorów? Skontaktuj się z nami!</p>
+          <p>
+            <b>Kontakt: </b
+            ><a href="mailto:paktdlamokradel2025@gmail.com"
+              >paktdlamokradel2025@gmail.com</a
+            >
+          </p>
+        </section>
+        <section id="organizing-commitee">
+          <h5>Komitet organizacyjny</h5>
 
-            </section>
-            <section id="news">
-                <h5>Aktualności</h5>
-                <ul>
-                    <li><a href="/docs/KOMUNIKAT_1_PAKT_2025.pdf">Komunikat PAKT 2025</a></li>
-                </ul>
-            </section>
-            <section id="program">
-                <h5>Program</h5>
-                <p>Nasz program został starannie zaplanowany, aby zapewnić uczestnikom jak najwięcej wartościowych
-                    informacji i doświadczeń. W ciągu trzech dni konferencji odbędą się:</p>
-                <ul>
-                    <li><strong>Prelekcje:</strong> Wystąpienia ekspertów, którzy podzielą się swoimi najnowszymi
-                        badaniami i doświadczeniami.</li>
-                    <li><strong>Sesje plakatowe:</strong> Prezentacje plakatowe, na których uczestnicy będą mogli
-                        zapoznać się z różnorodnymi projektami i badaniami.</li>
-                    <li><strong>Spotkania z ekspertami:</strong> Okazje do bezpośredniej wymiany wiedzy i
-                        doświadczeń z liderami w dziedzinie ochrony mokradeł.</li>
-                    <li><strong>Panele dyskusyjne:</strong> Żywe debaty na temat kluczowych wyzwań i przyszłości
-                        mokradeł.</li>
-                </ul>
-                <p>Szczegółowy harmonogram konferencji zostanie opublikowany wkrótce.</p>
-            </section>
-            <section id="registration">
-                <h5>Zgłoszenia</h5>
-                <p>Jeśli chcesz wziąć udział w konferencji Pakt dla Mokradeł, zapraszamy do wypełnienia <a href="
-                    https://docs.google.com/forms/d/e/1FAIpQLSdrOOe3vEtYVIZoZ_Rnyqd6YwouZKaA62dcPZ0mAbCynuHKIA/viewform?usp=sf_link">formularza zgłoszeniowego.</a></p>
-            </section>
-            <section id="speakers">
-                <h5>Prelegenci</h5>
-                <p>Poznaj naszych prelegentów!</p>
-                <p>W tej sekcji będziemy przedstawiać sylwetki wyjątkowych specjalistów, którzy podzielą się swoją
-                    wiedzą i doświadczeniem podczas konferencji.</p>
-                <p>Dowiedz się więcej o ich osiągnięciach i tematach, które będą poruszane w trakcie ich wystąpień.
-                </p>
-                <p>Lista prelegentów będzie na bieżąco aktualizowana.</p>
-            </section>
-            <section id="sponsors">
-                <h5>Sponsorzy</h5>
-                <p>Konferencja Pakt dla Mokradeł nie mogłaby się odbyć bez wsparcia naszych sponsorów.</p>
-                <p>Dzięki ich zaangażowaniu możemy zapewnić wysoki poziom merytoryczny wydarzenia oraz komfort dla
-                    wszystkich uczestników.</p>
-                <p>W tej sekcji znajdziesz informacje o naszych sponsorach, którzy wspierają ochronę mokradeł i
-                    zrównoważony rozwój.</p>
-                <p>Chcesz dołączyć do grona sponsorów? Skontaktuj się z nami!</p>
-                <p><b>Kontakt: </b><a href="mailto:paktdlamokradel2025@gmail.com">paktdlamokradel2025@gmail.com</a></p>
-            </section>
-            <section id="organizing-commitee">
-                <h5>Komitet organizacyjny</h5>
+          <ul>
+            <li>Mariusz Lamentowicz</li>
+            <li>Bogdan H. Chojnicki, prof. UPP</li>
+          </ul>
+          <p>oraz</p>
+          <ul>
+            <li>Mariusz Bąk</li>
+            <li>Mateusz Draga</li>
+            <li>dr Kamila M. Harenda</li>
+            <li>dr Monika Karpińska-Kołaczek</li>
+            <li>dr hab. Piotr Kołaczek, prof. UAM</li>
+            <li>Hanna Machejek</li>
+            <li>dr hab. Katarzyna Marcisz, prof. UAM</li>
+            <li>dr hab. Jakub Niebieszczański, prof. UAM</li>
+            <li>Patryk Poczta</li>
+            <li>Witold Szambelan</li>
+            <li>Daria Wochal</li>
+            <li>dr hab. Danuta Żurkiewicz, prof. UAM</li>
+          </ul>
 
-<ul>
-<li>Mariusz Lamentowicz</li>
-<li>Bogdan H. Chojnicki</li>
-</ul>
-oraz
-<ul>
-<li>Mariusz Bąk</li>
-<li>Mateusz Draga</li>
-<li>Kamila M. Harenda</li>
-<li>Monika Karpińska-Kołaczek</li>
-<li>Piotr Kołaczek</li>
-<li>Hanna Machejek</li>
-<li>Katarzyna Marcisz</li>
-<li>Jakub Niebieszczański</li>
-<li>Patryk Poczta</li>
-<li>Witold Szambelan</li>
-<li>Daria Wochal</li>
-<li>Danuta Żurkiewicz</li>
-</ul>
+          <p>
+            Kontakt:
+            <a href="mailto:paktdlamokradel2025@gmail.com"
+              >paktdlamokradel2025@gmail.com</a
+            >
+          </p>
 
-Strategicznym Partnerem Konferencji jest Centrum Ochrony Mokradeł.
-
-            </section>
-            <section id="scientific-commitee">
-                <h5>Komitet naukowy</h5>
-                <p>Komitet naukowy konferencji Pakt dla Mokradeł to grupa wybitnych naukowców i ekspertów, którzy
+          Strategicznym Partnerem Konferencji jest Centrum Ochrony Mokradeł.
+        </section>
+        <section id="scientific-commitee">
+          <h5>Komitet naukowy</h5>
+          <ul>
+            <li>prof. dr hab. Piotr Banaszuk</li>
+            <li>prof. dr hab. Klaudia Borowiak</li>
+            <li>prof. dr hab. Radosław Dobrowolski</li>
+            <li>prof. dr hab. Krzysztof Fortuniak</li>
+            <li>dr hab. Maciej Gąbka, prof. UAM</li>
+            <li>dr hab. Mateusz Grygoruk, prof. SGGW</li>
+            <li>dr hab. Iwona Hildebrandt-Radke, prof. UAM</li>
+            <li>prof. dr hab. Radosław Juszczak</li>
+            <li>dr hab. Wiktor Kotowski, prof. UW</li>
+            <li>dr Łukasz Kozub</li>
+            <li>prof. dr hab. Andrzej Michałowski</li>
+            <li>Paweł Pawlaczyk</li>
+            <li>prof. dr hab. Grzegorz Rachlewicz</li>
+            <li>prof. dr hab. Krzysztof Szoszkiewicz</li>
+            <li>prof. dr hab. Wojciech Tylman</li>
+            <li>prof. dr hab. inż. Lesław Wołejko</li>
+          </ul>
+          <!-- <p>Komitet naukowy konferencji Pakt dla Mokradeł to grupa wybitnych naukowców i ekspertów, którzy
                     czuwają nad merytorycznym poziomem wydarzenia.</p>
                 <p>Ich zadaniem jest ocena zgłoszeń, wybór prelegentów oraz nadzór nad jakością prezentowanych
                     treści.
                     Dzięki ich wiedzy i doświadczeniu konferencja będzie miejscem wymiany wartościowych informacji i
-                    inspiracji dla wszystkich uczestników.</p>
-            </section>
-        </div>
+                    inspiracji dla wszystkich uczestników.</p> -->
+        </section>
+      </div>
 
-        <div id="footer">
-
-        </div>
+      <div id="footer"></div>
     </div>
 
     <script defer>
-        function updatePage() {
-            const parts = window.location.hash.split('/');
-            const hash = parts[parts.length - 1] || '#home';
-            const navItems = document.querySelectorAll('.nav-link');
-            $('section').hide();
-            navItems.forEach(item => {
-                if (item.getAttribute('href') === hash) {
-                    item.classList.add('active');
-                    $(hash).show();
-                } else {
-                    item.classList.remove('active');
-                }
-            });
-        }
-
-        $(document).ready(() => {
-            updatePage();
-            window.addEventListener('hashchange', updatePage.bind(this));
+      function updatePage() {
+        const parts = window.location.hash.split("/");
+        const hash = parts[parts.length - 1] || "#home";
+        const navItems = document.querySelectorAll(".nav-link");
+        $("section").hide();
+        navItems.forEach((item) => {
+          if (item.getAttribute("href") === hash) {
+            item.classList.add("active");
+            $(hash).show();
+          } else {
+            item.classList.remove("active");
+          }
         });
-    </script>
-</body>
+      }
 
+      $(document).ready(() => {
+        updatePage();
+        window.addEventListener("hashchange", updatePage.bind(this));
+      });
+    </script>
+  </body>
 </html>
