@@ -41,6 +41,8 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
+    <link rel="stylesheet" href="styles.css" />
+
     <link
       rel="alternate"
       media="only screen and (max-width: 640px)"
@@ -65,102 +67,14 @@
     ></script>
   </head>
 
-  <style>
-    body {
-      background-color: hsl(120, 70%, 92%);
-    }
-
-    html,
-    body {
-      height: 100%;
-    }
-
-    .header-image {
-      height: 20vh;
-      object-fit: cover;
-      background: rgb(42, 72, 0);
-    }
-
-    #header-date {
-      background: hsla(85, 50%, 25%, 0.637);
-      border-radius: 5px;
-    }
-
-    .container {
-      background: whitesmoke;
-    }
-
-    #footer {
-      background: #f9f6e7;
-      text-align: center;
-    }
-
-    .sponsor-image {
-      height: 80px;
-      object-fit: cover;
-      object-position: 0 0;
-      margin: 1rem;
-    }
-
-    .main {
-      background: whitesmoke;
-      width: 100%;
-    }
-
-    h1,
-    h2 {
-      font-size: 1.3rem;
-      font-weight: 700;
-    }
-
-    .nav-container {
-      background: hsl(120, 10%, 90%);
-    }
-
-    #title {
-      text-shadow: 0 0 1rem black;
-    }
-
-    p {
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-      word-break: break-word;
-      white-space: normal;
-    }
-
-    #title {
-      font-size: 2.5rem;
-    }
-
-    h5 {
-      margin-top: 1rem;
-      margin-bottom: 2rem;
-    }
-
-    .nav-link {
-      font-size: 0.8rem;
-      padding-left: 0.6rem;
-      padding-right: 0.6rem;
-    }
-
-    section {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
-
-    #footer {
-      min-height: 100px;
-    }
-
-    @media (min-width: 800px) {
-      #main {
-        width: 800px;
-      }
-    }
-
-  </style>
-
   <body class="d-flex flex-column">
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content w-auto" id="modalImage"
+      >
+    </div>
+
     <div
       id="main"
       class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow"
@@ -181,7 +95,7 @@
         </h1>
         <img
           id="header-00"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/front-image-low-res.jpg"
           width="100%"
           alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
@@ -190,7 +104,7 @@
         <!-- hidden images -->
         <img
           id="header-01"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/photos/01-lowres.jpg"
           width="100%"
           alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
@@ -198,7 +112,7 @@
           />
         <img
           id="header-02"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/photos/02-lowres.jpg"
           width="100%"
           alt="Zdjęcie z drona puszczy"
@@ -206,7 +120,7 @@
           />
         <img
           id="header-03"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/photos/03-lowres.jpg"
           width="100%"
           alt="Zdjęcie z drona mokradeł"
@@ -214,7 +128,7 @@
           />
         <img
           id="header-04"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/photos/04-lowres.jpg"
           width="100%"
           alt="Zdjęcie z drona mokradeł"
@@ -222,7 +136,7 @@
           />
         <img
           id="header-05"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/photos/05-lowres.jpg"
           width="100%"
           alt="Zdjęcie z drona mokradeł"
@@ -230,7 +144,7 @@
           />
         <img
           id="header-06"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/photos/06-lowres.jpg"
           width="100%"
           alt="Zdjęcie pływających wysp"
@@ -238,7 +152,7 @@
           />
         <img
           id="header-07"
-          class="header-image"
+          class="header-image thumbnail"
           src="assets/photos/07-lowres.jpg"
           width="100%"
           alt="Zdjęcie kładki w mokradłach"
@@ -248,9 +162,7 @@
       <div class="pt-1 nav-container">
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home"
-              >Konferencja</a
-            >
+            <a class="nav-link active" aria-current="page" href="#home">Konferencja</a            >
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#news">Aktualności</a>
@@ -480,31 +392,7 @@
       <div id="footer"></div>
     </div>
 
-    <script defer>
-      function updatePage() {
-        const parts = window.location.hash.split("/");
-        const hash = parts[parts.length - 1] || "#home";
-        const navItems = document.querySelectorAll(".nav-link");
-        $("section").hide();
-        navItems.forEach((item, index) => {
-          if (item.getAttribute("href") === hash) {
-            item.classList.add("active");
-            $(hash).show();
-            
-            $(`.header-image`).hide();
-            $(`#header-0${index}`).show();
-
-
-          } else {
-            item.classList.remove("active");
-          }
-        });
-      }
-
-      $(document).ready(() => {
-        updatePage();
-        window.addEventListener("hashchange", updatePage.bind(this));
-      });
+    <script defer src="script.js">
     </script>
   </body>
 </html>
