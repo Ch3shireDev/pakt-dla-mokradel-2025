@@ -75,10 +75,9 @@
       height: 100%;
     }
 
-    #header {
+    .header-image {
       height: 20vh;
       object-fit: cover;
-      object-position: 0 0;
       background: rgb(42, 72, 0);
     }
 
@@ -158,6 +157,7 @@
         width: 800px;
       }
     }
+
   </style>
 
   <body class="d-flex flex-column">
@@ -180,11 +180,70 @@
           Pakt dla Mokradeł
         </h1>
         <img
-          alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
-          id="header"
+          id="header-00"
+          class="header-image"
           src="assets/front-image-low-res.jpg"
           width="100%"
+          alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
+          style="object-position: 0 0;"
         />
+        <!-- hidden images -->
+        <img
+          id="header-01"
+          class="header-image"
+          src="assets/photos/01-lowres.jpg"
+          width="100%"
+          alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
+          style="display: none; object-position: 0 32%;"
+          />
+        <img
+          id="header-02"
+          class="header-image"
+          src="assets/photos/02-lowres.jpg"
+          width="100%"
+          alt="Zdjęcie z drona puszczy"
+          style="display: none; object-position: 0 40%; object-fit: cover;"
+          />
+        <img
+          id="header-03"
+          class="header-image"
+          src="assets/photos/03-lowres.jpg"
+          width="100%"
+          alt="Zdjęcie z drona mokradeł"
+          style="display: none; object-position: 0 10%; object-fit: cover;"
+          />
+        <img
+          id="header-04"
+          class="header-image"
+          src="assets/photos/04-lowres.jpg"
+          width="100%"
+          alt="Zdjęcie z drona mokradeł"
+          style="display: none; object-position: 0 30%; object-fit: cover;"
+          />
+        <img
+          id="header-05"
+          class="header-image"
+          src="assets/photos/05-lowres.jpg"
+          width="100%"
+          alt="Zdjęcie z drona mokradeł"
+          style="display: none; object-position: 0 40%; object-fit: cover;"
+          />
+        <img
+          id="header-06"
+          class="header-image"
+          src="assets/photos/06-lowres.jpg"
+          width="100%"
+          alt="Zdjęcie pływających wysp"
+          style="display: none; object-position: 0 10%; object-fit: cover;"
+          />
+        <img
+          id="header-07"
+          class="header-image"
+          src="assets/photos/07-lowres.jpg"
+          width="100%"
+          alt="Zdjęcie kładki w mokradłach"
+          style="display: none; object-position: 0 30%; object-fit: cover;"
+          />
       </div>
       <div class="pt-1 nav-container">
         <ul class="nav nav-tabs">
@@ -427,10 +486,15 @@
         const hash = parts[parts.length - 1] || "#home";
         const navItems = document.querySelectorAll(".nav-link");
         $("section").hide();
-        navItems.forEach((item) => {
+        navItems.forEach((item, index) => {
           if (item.getAttribute("href") === hash) {
             item.classList.add("active");
             $(hash).show();
+            
+            $(`.header-image`).hide();
+            $(`#header-0${index}`).show();
+
+
           } else {
             item.classList.remove("active");
           }
