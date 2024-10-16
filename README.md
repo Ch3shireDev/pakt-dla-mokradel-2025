@@ -2,9 +2,8 @@
 
  przesyłam listę zmian na stronie:
 
-    W stopce strony proszę o umieszczenie ryciny Logotypy_15_10_2024.png - tak, aby była widoczna, otwierając każdą zakładkę.
-
-    W zakładce konferencja proszę o usunięcie "Witaj na stronie konferencji Pakt dla Mokradeł!" i stworzenie pasków wiodących takich jak te turkusowe na stronie startowej https://pakt.bagna.pl/#/start:
+    - [x] W stopce strony proszę o umieszczenie ryciny Logotypy_15_10_2024.png - tak, aby była widoczna, otwierając każdą zakładkę.
+    - [x] W zakładce konferencja proszę o usunięcie "Witaj na stronie konferencji Pakt dla Mokradeł!" i stworzenie pasków wiodących takich jak te turkusowe na stronie startowej https://pakt.bagna.pl/#/start:
         Pasek 1: O konferencji, pod którym znajdzie się dotychczasowy tekst
         Pasek: 2: Patronat honorowy z tekstem pod nim:
         Konferencja odbędzie się pod honorowym patronatem
@@ -17,7 +16,7 @@
 
         Pasek 3: Kontakt, pod którym znajdzie się e-mail: paktdlamokradel2025@gmail.com
 
-    W zakładce Sponsorzy proszę o stworzenie dwóch pasków wiodących:
+    - [x] W zakładce Sponsorzy proszę o stworzenie dwóch pasków wiodących:
 
 Pasek 1: Lista sponsorów i umieszczenie pod nim logotypu Żywiec Zdrój - logotyp.png z linkiem do strony https://www.zywiec-zdroj.pl/ po kliknięciu na logo
 Pasek 2: Dołącz do grona sponsorów z dotychczasowym tekstem po nim
