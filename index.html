@@ -1,540 +1,722 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pakt dla Mokradeł - Konferencja 2025</title>
-        <meta name="description" content="Strona konferencji Pakt dla Mokradeł 2025. Celem konferencji będzie dyskusja nad kluczową rolą, jaką mokradła odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany klimatu i utrzymaniu usług ekosystemowych.">
-        <meta property="og:title" content="Pakt dla Mokradeł 2025. Strona poświęcona konferencji Pakt dla Mokradeł.">
-        <meta property="og:description" content="Strona konferencji Pakt dla Mokradeł 2025.">
-        <meta property="og:image" content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg">
-        <meta property="og:url" content="https://pakt-dla-mokradel.pl">
-        <meta property="og:type" content="website">
-        <meta name="twitter:card" content="assets/front-image-low-res.jpg">
-        <meta name="twitter:title" content="Pakt dla Mokradeł 2025">
-        <meta name="twitter:description" content="Strona konferencji Pakt dla Mokradeł 2025. Celem konferencji będzie dyskusja nad kluczową rolą, jaką mokradła odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany klimatu i utrzymaniu usług ekosystemowych.">
-        <meta name="twitter:image" content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg">
-        <meta name="twitter:url" content="https://pakt-dla-mokradel.pl">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="canonical" href="https://pakt-dla-mokradel.pl/">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="alternate" media="only screen and (max-width: 640px)" href="https://pakt-dla-mokradel.pl">
-        <link
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakt dla Mokradeł - Konferencja 2025</title>
+    <meta name="description"
+          content="Strona konferencji Pakt dla Mokradeł 2025. Celem konferencji będzie dyskusja nad kluczową rolą, jaką mokradła odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany klimatu i utrzymaniu usług ekosystemowych.">
+    <meta property="og:title" content="Pakt dla Mokradeł 2025. Strona poświęcona konferencji Pakt dla Mokradeł.">
+    <meta property="og:description" content="Strona konferencji Pakt dla Mokradeł 2025.">
+    <meta property="og:image" content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg">
+    <meta property="og:url" content="https://pakt-dla-mokradel.pl">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="assets/front-image-low-res.jpg">
+    <meta name="twitter:title" content="Pakt dla Mokradeł 2025">
+    <meta name="twitter:description"
+          content="Strona konferencji Pakt dla Mokradeł 2025. Celem konferencji będzie dyskusja nad kluczową rolą, jaką mokradła odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany klimatu i utrzymaniu usług ekosystemowych.">
+    <meta name="twitter:image" content="https://pakt-dla-mokradel.pl/assets/front-image-medium-res.jpg">
+    <meta name="twitter:url" content="https://pakt-dla-mokradel.pl">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://pakt-dla-mokradel.pl/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://pakt-dla-mokradel.pl">
+    <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous"
+    >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+            integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+<body class="d-flex flex-column">
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+<div id="main" class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow" style="max-width: 1000px">
+    <div id="header" class="position-relative">
+        <h2 class="position-absolute top-0 end-0 py-2 px-3 text-light" id="header-date">
+            Poznań, 3-5 lutego 2025
+        </h2>
+        <h1 class="position-absolute bottom-0 mb-3 text-light fw-bolder ms-3" id="title">
+            Pakt dla Mokradeł
+        </h1>
+        <img
+                id="header-00"
+                class="header-image thumbnail"
+                src="assets/front-image-low-res.jpg"
+                width="100%"
+                alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
+                style="object-position: 0 0;"
         >
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-    </head>
-    <body class="d-flex flex-column">
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="modalImage">
-        </div>
-        <div id="main" class="mx-md-auto mx-0 mt-0 mb-0 flex-fill d-flex flex-column shadow" style="max-width: 1000px">
-            <div id="header" class="position-relative">
-                <h2 class="position-absolute top-0 end-0 py-2 px-3 text-light" id="header-date">
-                    Poznań, 3-5 lutego 2025
-                </h2>
-                <h1 class="position-absolute bottom-0 mb-3 text-light fw-bolder ms-3" id="title">
-                    Pakt dla Mokradeł
-                </h1>
-                <img
-                    id="header-00"
-                    class="header-image thumbnail"
-                    src="assets/front-image-low-res.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
-                    style="object-position: 0 0;"
-                >
-                <!-- hidden images -->
-                <img
-                    id="header-01"
-                    class="header-image thumbnail"
-                    src="assets/photos/01-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
-                    style="display: none; object-position: 0 32%;"
-                >
-                <img
-                    id="header-02"
-                    class="header-image thumbnail"
-                    src="assets/photos/02-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona puszczy"
-                    style="display: none; object-position: 0 40%; object-fit: cover;"
-                >
-                <img
-                    id="header-03"
-                    class="header-image thumbnail"
-                    src="assets/photos/03-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona mokradeł"
-                    style="display: none; object-position: 0 10%; object-fit: cover;"
-                >
-                <img
-                    id="header-04"
-                    class="header-image thumbnail"
-                    src="assets/photos/04-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona mokradeł"
-                    style="display: none; object-position: 0 30%; object-fit: cover;"
-                >
-                <img
-                    id="header-05"
-                    class="header-image thumbnail"
-                    src="assets/photos/05-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona mokradeł"
-                    style="display: none; object-position: 0 40%; object-fit: cover;"
-                >
-                <img
-                    id="header-06"
-                    class="header-image thumbnail"
-                    src="assets/photos/06-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie pływających wysp"
-                    style="display: none; object-position: 0 10%; object-fit: cover;"
-                >
-                <img
-                    id="header-07"
-                    class="header-image thumbnail"
-                    src="assets/photos/07-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie kładki w mokradłach"
-                    style="display: none; object-position: 0 30%; object-fit: cover;"
-                >
-                <img
-                    id="header-08"
-                    class="header-image thumbnail"
-                    src="assets/photos/08-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona mokradeł"
-                    style="display: none; object-position: 0 60%; object-fit: cover;"
-                >
-                <img
-                    id="header-09"
-                    class="header-image thumbnail"
-                    src="assets/photos/04-lowres.jpg"
-                    width="100%"
-                    alt="Zdjęcie z drona mokradeł"
-                    style="display: none; object-position: 0 50%; object-fit: cover;"
-                >
-            </div>
-            <div class="pt-1 nav-container">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Konferencja</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#news">Aktualności</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#program">Program</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#registration">
-                            Zgłoszenia
-                        </a
-            >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#speakers">
-                            Prelegenci
-                        </a
-            >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#organizing-commitee">
-                            Organizatorzy
-                        </a
-            >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#scientific-commitee">
-                            Komitet naukowy
-                        </a
-            >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#sponsors">
-                            Sponsorzy
-                        </a
-            >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#patrons">
-                            Patroni
-                        </a
-            >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#panels">
-                            Panele dyskusyjne
-                        </a
-            >
-                    </li>
-                </ul>
-            </div>
-            <div class="main px-md-5 px-2 flex-fill m-0" id="main-content">
-                <section id="home">
-                    <h5>O konferencji</h5>
-                    <p>
-                        Serdecznie zapraszamy na drugą edycję konferencji Pakt dla Mokradeł,
-            której celem będzie dyskusja nad kluczową rolą, jaką mokradła
-            odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany
-            klimatu i utrzymaniu usług ekosystemowych.
-                    </p>
-                    <p>
-                        Niniejsze spotkanie naukowców i praktyków ma integrować ekspertów,
-            naukowców, przedstawicieli administracji państwowej i organizacji
-            pozarządowych, aktywistów, przedstawicieli biznesu oraz pasjonatów
-            ochrony środowiska, aby umożliwić wymianę wiedzy oraz stworzyć
-            przestrzeń do dyskusji nad aktualnymi problemami i wyzwaniami w
-            ochronie mokradeł, projektach odtwarzania, zagospodarowania, oraz
-            ramach politycznych niezbędnych do ochrony tych wyjątkowych
-            ekosystemów.
-                    </p>
-                    <p>
-                        Będziemy rozmawiać o torfowiskach, rzekach, jeziorach, obszarach
-            nadmorskich, mokradłach miejskich, leśnych oraz tych w krajobrazie
-            rolniczym. Sesje będą poświęcone m.in. zmianie klimatu, globalnemu
-            ociepleniu, paleoklimatologii, paleoekologii, archeologii mokradeł,
-            monitoringowi przyrodniczemu, badaniom eksperymentalnym, ochronie
-            mokradeł w lasach, aktom prawnym, m.in. Nature Restoration Law,
-            Green Deal, restytucji mokradeł, rolnictwu bagiennemu oraz usługom
-            ekosystemowym.
-                    </p>
-                    <p>
-                        Uczestnicy będą mieli okazję wziąć udział w wykładach, sesjach
-            posterowych, spotkaniach z ekspertami, panelach dyskusyjnych,
-            warsztatach i wystawach tematycznych. Jest to wyjątkowa okazja do
-            nawiązania kontaktów i współpracy nad innowacyjnymi rozwiązaniami na
-            rzecz ochrony mokradeł dla przyszłych pokoleń.
-                    </p>
-                    <p>Zachęcamy do rejestracji poprzez formularz w zakładce <a href="#registration">Zgłoszenia</a> i do dołączenia do oficjalnej strony <a href="https://fb.me/e/5NFMn2664" target="_blank">wydarzenia na Facebooku.</a></p>
-                    <p style="font-weight: 500;">Komitet organizacyjny</p>
-                    <h5 class="mt-5 mb-4">Patronat honorowy</h5>
-                    <p class="text-center">
-                        Konferencja odbędzie się pod honorowym patronatem
-                        <br>
-                        JM Rektor Uniwersytetu im. Adama Mickiewicza w Poznaniu
-                        <br>
-                        Prof. dr hab. Bogumiły Kaniewskiej
-                        <br>
-                        oraz
-                        <br>
-                        JM Rektora Uniwersytetu Przyrodniczego w Poznaniu
-                        <br>
-                        Prof. dr hab. Krzysztofa Szoszkiewicza
-                        <br>
-                    </p>
-                    <h5>Kontakt</h5>
-                    <a href="mailto:paktdlamokradel2025@gmail.com">paktdlamokradel2025@gmail.com</a>
-                </p>
-            </section>
-            <section id="news">
-                <h5>Aktualności</h5>
-                <p>W tym miejscu będziemy zamieszczać komunikaty i najważniejsze informacje dotyczące miejsca konferencji (wskazówki dojazdu, organizacja sal itp.). Zachęcamy także do dołączenia do oficjalnej strony wydarzenia na Facebooku, by być na bieżąco ze wszystkimi aktualnościami.</p>
-                <h5>Komunikat nr 1 z dnia 13 września 2024 roku</h5>
-                <!-- <ul>
-                    <li>
-                        <a href="/docs/KOMUNIKAT_1_SAS_10_10_2024.pdf">Komunikat PAKT 2025</a>
-                    </li>
-                </ul> -->
-                <p class="text-center">
-                    <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_1_SAS_10_10_2024_page-0001.jpg" width="30%">
-                    <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_1_SAS_10_10_2024_page-0002.jpg" width="30%">
-                    <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_1_SAS_10_10_2024_page-0003.jpg" width="30%">
-                </p>
-                <p class="py-5">Komunikat można pobrać w formacie <a href="/docs/KOMUNIKAT_1_SAS_10_10_2024.pdf">pdf.</a></p>
-            </section>
-            <section id="program">
-                <h5>Program</h5>
-                <p>
-                    Nasz program został starannie zaplanowany, aby zapewnić uczestnikom
-            jak najwięcej wartościowych informacji i doświadczeń. W ciągu trzech
-            dni konferencji odbędą się:
-                </p>
-                <ul>
-                    <li>
-                        <strong>Prelekcje:</strong>
-                        Wystąpienia ekspertów, którzy podzielą
-              się swoimi najnowszymi badaniami i doświadczeniami.
-                    </li>
-                    <li>
-                        <strong>Sesje plakatowe:</strong>
-                        Prezentacje plakatowe, na
-              których uczestnicy będą mogli zapoznać się z różnorodnymi
-              projektami i badaniami.
-                    </li>
-                    <li>
-                        <strong>Spotkania z ekspertami:</strong>
-                        Okazje do bezpośredniej
-              wymiany wiedzy i doświadczeń z liderami w dziedzinie ochrony
-              mokradeł.
-                    </li>
-                    <li>
-                        <strong>Panele dyskusyjne:</strong>
-                        Żywe debaty na temat
-              kluczowych wyzwań i przyszłości mokradeł.
-                    </li>
-                </ul>
-                <p>
-                    Szczegółowy harmonogram konferencji zostanie opublikowany wkrótce.
-                </p>
-            </section>
-            <section id="registration">
-                <h5>Zgłoszenia</h5>
-                <p>
-                    Jeśli chcesz wziąć udział w konferencji Pakt dla Mokradeł,
-            zapraszamy do wypełnienia
-                    <a href="
-                    https://docs.google.com/forms/d/e/1FAIpQLSdrOOe3vEtYVIZoZ_Rnyqd6YwouZKaA62dcPZ0mAbCynuHKIA/viewform?usp=sf_link">
-                        formularza zgłoszeniowego.
-                    </a
-            >
-                </p>
-                <p>
-                    Na zgłoszenia czekamy do
-                    <b>25 listopada 2024</b>
-                    roku.
-                </p>
-                <p>
-                    Abstrakty wystąpień referatowych, jak i plakatowych przyjmujemy do
-                    <b>30 grudnia 2024</b>
-                    roku. Należy je przesłać na adres mailowy konferencji <a href="mailto:paktdlamokradel2025@gmail.com">paktdlamokradel2025@gmail.com</a> zgodnie z szablonem <a href="assets/Abstrakt_wzor_pakt_2025.docx">Abstrakt_wzor_pakt_2025.docx</a>.
-                </p>
-                <h5>Koszt</h5>
-                <p>
-                    Koszt uczestnictwa w konferencji wynosi
-                    <b>350 zł.</b>
-                    Opłata uwzględnia koszty organizacyjne, pakiet materiałów konferencyjnych, obiady i przerwy kawowe.
-                </p>
-                <p>
-                    Opłata dla studentów i doktorantów wynosi
-                    <b>200 zł.</b>
-                </p>
-                <h5>Dane do przelewu</h5>
-                <p>Dane do przelewu krajowego:</p>
-                <p><b>Numer rachunku odbiorcy:</b> 21 1020 4027 0000 1402 0430 0448</p>
-                <p><b>Nazwa odbiorcy:</b> STOWARZYSZENIE ARCHEOLOGII ŚRODOWISKOWEJ</p>
-                <p><b>Nazwa banku:</b> Powszechna Kasa Oszczędności Bank Polski SA</p>
-                <p><b>Kod BIC (Swift) banku:</b> BPKOPLPW</p>
-                <p><b>Tytuł przelewu:</b> Opłata konferencyjna &lt;Imię i nazwisko uczestnika&gt;</p>
-                <br/>
-                <p>Na opłaty czekamy do <b>10 stycznia 2025 roku.</b></p>
-            </section>
-            <section id="speakers">
-                <h5>Prelegenci</h5>
-                <p>Poznaj naszych prelegentów!</p>
-                <h5>Dr Ilona Biedroń</h5>
-                <div class="d-flex flex-column flex-md-row">
-                    <div class="text-center">
-                        <img class="person-img" src="/assets/speakers/ilona-biedron-mid-res.jpg">
-                    </div>
-                    <p>
-                        <b>Ilona Biedroń</b> - doktor nauk inżynieryjno-technicznych w dyscyplinie inżynieria środowiska, specjalizująca się w zarządzaniu zasobami wodnymi obejmującym problematykę powodzi, suszy oraz ochronę i odtwarzanie ekosystemów rzecznych. Ekspert ds. renaturyzacji wód powierzchniowych w Instytucie Meteorologii i Gospodarki Wodnej, koordynatorka projektu WaterLANDS w Centrum Ochrony Mokradeł, prezes Fundacji Zdrowa Rzeka (d. Hektary Dla Natury). Niezależna ekspert współpracująca ze środowiskiem naukowo-badawczym, organizacjami rządowymi, pozarządowymi i samorządem.
-                    </p>
-                </div>
-                <h5>Viktar Fenchuk</h5>
-                <div class="d-flex flex-column flex-md-row-reverse">
-                    <div class="text-center">
-                        <img class="person-img" src="/assets/speakers/viktar-fenchuk.jpg">
-                    </div>
-                    <p>
-                        <b>Viktar Fenchuk</b>
-                        - białoruski przyrodnik i biolog zajmującym się ochroną mokradeł. Jest byłym
-                        dyrektorem APB, partnera BirdLife International na Białorusi i liderem programu ochrony
-                        dzikiej przyrody APB - Frankfurt Zoological Society na Białorusi. Na wszystkich swoich
-                        stanowiskach Viktar pracował nad tym, aby odtwarzanie i ochrona torfowisk znajdowały się
-                        w centrum działań. Od 2010 roku Viktar kierował rozwojem i wdrażaniem programu
-                        renaturyzacji mokradeł w białoruskiej części Puszczy Białowieskiej. Praca ta zaowocowała
-                        systematycznym corocznym wdrażaniem działań renaturyzacyjnych na terenach podmokłych
-                        (w szczególności torfowiskach), które są kontynuowane do dziś. Początkowo, opierając się na
-                        polskich doświadczeniach retencji wody w Puszczy Białowieskiej prowadzonej przez PTOP,
-                        jest ona obecnie wykorzystywana jako ważny przykład do wznowienia procesu odtwarzania
-                        mokradeł w polskiej części puszczy. Stanowi również dobry przykład tego, jak współpraca
-                        transgraniczna może być ważnym czynnikiem wzajemnie wzmacniającym prace związane z
-                        odtwarzaniem terenów podmokłych. Po prześladowaniach politycznych w swojej ojczyźnie,
-                        Viktar kontynuuje pracę na rzecz mokradeł w Polsce. Z uśmiechem mówi, że to dzięki ciągłej
-                        pracy z torfowiskami jego przejście z ojczyzny na emigrację było znacznie płynniejsze niż w
-                        przypadku wielu innych Białorusinów zmuszonych do relokacji. To dobry przykład na to, że
-                        jeśli raz podpiszesz pakt z torfowiskami, one będą cię wspierać.
-                    </p>
-                </div>
-                
-                <h5>Stefan Konczal</h5>
-                <div class="d-flex flex-column flex-md-row">
-                    <div class="text-center">
-                        <img class="person-img" src="/assets/speakers/stefan-konczal.jpg">
-                    </div>
-                    <p>
-                        <b>Stefan Konczal</b> - leśnik, absolwent Wydziału Leśnego Akademii Rolniczej (obecnie Uniwersytet Przyrodniczy) w Poznaniu. Od ponad 40 lat związany z Borami Tucholskimi. Pracował w nadleśnictwach Przymuszewo, Trzebciny, Osie, Dąbrowa, Tuchola i Woziwoda (dwukrotnie) oraz w Zaborskim Parku Krajobrazowym i Technikum Leśnym w Tucholi. Interesuje się ochroną przyrody, ornitologią, lubi wędrówki i podróże z plecakiem. Brał czynny udział w utworzeniu kilku rezerwatów przyrody w Borach Tucholskich. Współautor publikacji „Jak chronić torfowiska w lasach”. Ostatnio zaangażowany w odtwarzanie i przywracanie torfowisk w Borach Tucholskich - działania w ramach projektu „Ochrona cennych ekosystemów Borów Tucholskich” finansowanego ze środków EOG.
-                    </p>
-                </div>
-                <h5>Dr hab. Wiktor Kotowski, Prof. UW</h5>
-                <div class="d-flex flex-column flex-md-row-reverse">
-                    <div class="text-center">
-                        <img class="person-img" src="/assets/speakers/wiktor-kotowski-mid-res.jpg" style="object-position:0 -20px">
-                    </div>
-                    <p>
-                        <b>Wiktor Kotowski</b> - naukowiec, działacz społeczny i popularyzator wiedzy w zakresie ochrony i odtwarzania mokradeł. Profesor uczelni na Wydziale Biologii Uniwersytetu Warszawskiego, prowadzi badania nad ekosystemami torfowisk niskich - podstawami zróżnicowania ich roślinności, usługami ekosystemowymi i możliwościami regeneracji. Współzałożyciel i członek Zarządu Centrum Ochrony Mokradeł oraz działacz międzynarodowych organizacji o podobnym profilu. Współautor ponad 80 publikacji naukowych oraz kilkudziesięciu artykułów prasowych i licznych wystąpień medialnych. Laureat nagrody Popularyzator Nauki 2022 w kategorii naukowiec. Członek Państwowej Rady Ochrony Przyrody, w której pełni rolę przewodniczącego Komisji Ochrony Ekosystemów.
-                    </p>
-                </div>
-                <h5>Dr hab. Jakub Niebieszczański, Prof. UAM</h5>
-                <div class="d-flex flex-column flex-md-row">
-                    <div class="text-center">
-                        <img class="person-img" src="/assets/speakers/jakub-niebieszczanski.jpg">
-                    </div>
-                    <p>
-                        <b>Jakub Niebieszczański</b> - geoarcheolog pracujący na Wydziale Archeologii Uniwersytetu im. Adama Mickiewicza w Poznaniu. Specjalizuje się w badaniu związku społeczności pradziejowych (neolit, epoka brązu, epoka żelaza) i wczesnohistorycznych z otaczającym ich środowiskiem. Interesuje się zarówno wpływem warunków środowiskowych na osadnictwo jak i tym w jaki sposób to człowiek wpływał na procesy zachodzące w przyrodzie. Uczestniczył lub prowadził projekty badawcze w Polsce, Ukrainie, na Węgrzech czy Grecji. Specjalizuje się w wierceniach archeologicznych metodą vibra-coring oraz prospekcji geofizycznej metodą magnetometryczną w poszukiwaniu stanowisk. Związany z mokradłami poprzez potencjał badawczy jaki oferują w badaniu przeszłości człowieka i natury.
-                    </p>
-                </div>
-                <h5>Dr Franziska Tanneberger</h5>
-                <div class="d-flex flex-column flex-md-row-reverse">
-                    <div class="text-center">
-                        <img class="person-img" src="/assets/speakers/francizka-tanneberger.jpg">
-                    </div>
-                    <p>
-                        <b>Franziska Tanneberger</b> - naukowiec zajmujący się torfowiskami i wykładowca na Uniwersytecie w Greifswaldzie oraz dyrektor Greifswald Mire Centre w Niemczech. Studiowała ekologię krajobrazu i ochronę przyrody na uniwersytetach w Greifswaldzie i Reading. Jej badania
-                        obejmują bioróżnorodność torfowisk, tworzenie się torfu, paludikulturę, odtwarzanie torfowisk, usługi ekosystemowe i kredyty węglowe. Franziska jest redaktorem „European Mires Book” (2017) i koordynatorem wiodącym dla Europy Global Peatlands Assessment (2022). W latach
-                        2020/2021 przewodniczyła Radzie Przyszłości Kraju Związkowego Meklemburgii-Pomorza Przedniego, a od 2023 jest członkiem German Council for Sustainable Development. Greifswald Mire Centre (GMC) jest połączeniem nauki, polityki i praktyki Uniwersytetu w Greifswaldzie,
-                        Fundacji Michaela Succowa i DUENE. W GMC pracuje około 100 ekspertów ds. torfowisk z różnych dziedzin. GMC prowadzi Global Peatland Database (GPD) i jest członkiem-założycielem Global Peatlands Initiative (GPI).
-                    </p>
-                </div>
-            </section>
-            <section id="sponsors">
-                <h5>Sponsorzy</h5>
-                <p class="text-center">
-                    <a href="https://www.zywiec-zdroj.pl">
-                        <img src="assets/zywiec-zdroj-logotyp-2.svg" width="50%">
-                    </a>
-                </p>
-                <h5>Dołącz do grona sponsorów</h5>
-                <p>
-                    Konferencja Pakt dla Mokradeł nie mogłaby się odbyć bez wsparcia
-            naszych sponsorów.
-                </p>
-                <p>
-                    Dzięki ich zaangażowaniu możemy zapewnić wysoki poziom merytoryczny
-            wydarzenia oraz komfort dla wszystkich uczestników.
-                </p>
-                <p>
-                    W tej sekcji znajdziesz informacje o naszych sponsorach, którzy
-            wspierają ochronę mokradeł i zrównoważony rozwój.
-                </p>
-                <p>Chcesz dołączyć do grona sponsorów? Skontaktuj się z nami!</p>
-                <p>
-                    <b>
-                        Kontakt:
-                    </b
-            >
-                    <a href="mailto:paktdlamokradel2025@gmail.com">
-                        paktdlamokradel2025@gmail.com
-                    </a
-            >
-                </p>
-            </section>
-            <section id="organizing-commitee">
-                <h5>Komitet organizacyjny</h5>
-                <ul>
-                    <li>prof. dr hab. Mariusz Lamentowicz</li>
-                    <li>dr hab. Bogdan H. Chojnicki, prof. UPP</li>
-                </ul>
-                <p>oraz</p>
-                <ul>
-                    <li>Mariusz Bąk</li>
-                    <li>Mateusz Draga</li>
-                    <li>dr Kamila M. Harenda</li>
-                    <li>dr Monika Karpińska-Kołaczek</li>
-                    <li>dr hab. Piotr Kołaczek, prof. UAM</li>
-                    <li>Hanna Machejek</li>
-                    <li>dr hab. Katarzyna Marcisz, prof. UAM</li>
-                    <li>dr hab. Jakub Niebieszczański, prof. UAM</li>
-                    <li>Patryk Poczta</li>
-                    <li>Witold Szambelan</li>
-                    <li>Daria Wochal</li>
-                    <li>dr Danuta Żurkiewicz</li>
-                </ul>
-                <p>
-                    Kontakt:
-                    <a href="mailto:paktdlamokradel2025@gmail.com">
-                        paktdlamokradel2025@gmail.com
-                    </a
-            >
-                </p>
-                Partnerem Konferencji jest Centrum Ochrony Mokradeł.
-            </section>
-            <section id="scientific-commitee">
-                <h5>Komitet naukowy</h5>
-                <ul>
-                    <li>prof. dr hab. Piotr Banaszuk</li>
-                    <li>prof. dr hab. Klaudia Borowiak</li>
-                    <li>prof. dr hab. Radosław Dobrowolski</li>
-                    <li>prof. dr hab. Krzysztof Fortuniak</li>
-                    <li>dr hab. Maciej Gąbka, prof. UAM</li>
-                    <li>dr hab. Mateusz Grygoruk, prof. SGGW</li>
-                    <li>dr hab. Iwona Hildebrandt-Radke, prof. UAM</li>
-                    <li>prof. dr hab. Anna Januchta-Szostak</li>
-                    <li>prof. dr hab. Radosław Juszczak</li>
-                    <li>dr hab. Wiktor Kotowski, prof. UW</li>
-                    <li>dr Łukasz Kozub</li>
-                    <li>prof. dr hab. Andrzej Michałowski</li>
-                    <li>Paweł Pawlaczyk</li>
-                    <li>prof. dr hab. Grzegorz Rachlewicz</li>
-                    <li>prof. dr hab. Krzysztof Szoszkiewicz</li>
-                    <li>prof. dr hab. Wojciech Tylman</li>
-                    <li>prof. dr hab. inż. Lesław Wołejko</li>
-                </ul>
-            </section>
-            <section id="patrons">
-                <h5>Patroni medialni</h5>
-                <p class="text-center">
-                    <a href="https://epoznan.pl">
-                        <img src="assets/epoznan_logo.jpg" width="30%" class="p-2">
-                    </a>
-                    <a href="https://wtk.pl">
-                        <img src="assets/WTK_logotyp.jpg" width="20%" class="p-2">
-                    </a>
-                    <a href="https://uniwersyteckie.pl">
-                        <img src="assets/ZU.jpg" width="24%" class="p-2">
-                    </a>
-                    <a href="https://www.afera.com.pl/">
-                        <img src="assets/radio_afera_logo_pp.png" width="24%" class="p-2">
-                    </a>
-                </p>
-            </section>
-            <section id="panels">
-                <h5>Panele dyskusyjne</h5>
-                <p>Poznaj naszych panelistów!</p>
-                <h5>Rzeki, powodzie, susze i wyzwania gospodarki wodnej</h5>
-                <ul>
-                    <li>Prof. dr hab. Anna Januchta Szostak - Politechnika Poznańska</li>
-                    <li>Artur Furdyna - Rewilding Oder Delta</li>
-                    <li>Dr hab. Agnieszka Kolada - Zakład Ochrony Wód w Instytucie Ochrony Środowiska</li>
-                    <li>Dr hab. Tomasz Kałuża, Prof. UPP - Uniwersytet Przyrodniczy w Poznaniu</li>
-                    <li>Dr hab. Mateusz Grygoruk, Prof. SGGW - Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</li>
-                    <li>Piotr Nieznański - Fundacja WWF Polska</li>
-                </ul>
-                <h5>Wyzwania ochrony i odtwarzania moradeł - między nauką, polityką i biznesem</h5>
-                <ul>
-                    <li>Monika Łaskawska-Wolszczak - Centrum Ochrony Mokradeł</li>
-                    <li>Monika Matak - Żywiec Zdrój</li>
-                    <li>Prof. dr hab. Bogdan Jaroszewicz - Lasy Państwowe</li> 
-                    <li>Sylwia Gawrońska - Generalna Dyrekcja Ochrony Środowiska</li>
-                    <li>Paweł Pawlaczyk - Klub Przyrodników</li>
-                </ul>
-            </section>
-        </div>
-        <div id="footer">
-            <img src="/assets/Logotypy_stopka_wersja_17_10_2024.png" width="100%">
-        </div>
+        <!-- hidden images -->
+        <img
+                id="header-01"
+                class="header-image thumbnail"
+                src="assets/photos/01-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
+                style="display: none; object-position: 0 32%;"
+        >
+        <img
+                id="header-02"
+                class="header-image thumbnail"
+                src="assets/photos/02-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie z drona puszczy"
+                style="display: none; object-position: 0 40%; object-fit: cover;"
+        >
+        <img
+                id="header-03"
+                class="header-image thumbnail"
+                src="assets/photos/03-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie z drona mokradeł"
+                style="display: none; object-position: 0 10%; object-fit: cover;"
+        >
+        <img
+                id="header-04"
+                class="header-image thumbnail"
+                src="assets/photos/04-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie z drona mokradeł"
+                style="display: none; object-position: 0 30%; object-fit: cover;"
+        >
+        <img
+                id="header-05"
+                class="header-image thumbnail"
+                src="assets/photos/05-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie z drona mokradeł"
+                style="display: none; object-position: 0 40%; object-fit: cover;"
+        >
+        <img
+                id="header-06"
+                class="header-image thumbnail"
+                src="assets/photos/06-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie pływających wysp"
+                style="display: none; object-position: 0 10%; object-fit: cover;"
+        >
+        <img
+                id="header-07"
+                class="header-image thumbnail"
+                src="assets/photos/07-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie kładki w mokradłach"
+                style="display: none; object-position: 0 30%; object-fit: cover;"
+        >
+        <img
+                id="header-08"
+                class="header-image thumbnail"
+                src="assets/photos/08-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie z drona mokradeł"
+                style="display: none; object-position: 0 60%; object-fit: cover;"
+        >
+        <img
+                id="header-09"
+                class="header-image thumbnail"
+                src="assets/photos/04-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie z drona mokradeł"
+                style="display: none; object-position: 0 50%; object-fit: cover;"
+        >
+        <img
+                id="header-10"
+                class="header-image thumbnail"
+                src="assets/photos/06-lowres.jpg"
+                width="100%"
+                alt="Zdjęcie pływających wysp"
+                style="display: none; object-position: 0 10%; object-fit: cover;"
+        >
     </div>
-    <script defer src="script.js"></script>
+    <div class="pt-1 nav-container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Konferencja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#news">Aktualności</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#program">Program</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#registration">
+                    Zgłoszenia
+                </a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#speakers">
+                    Prelegenci
+                </a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#panels">
+                    Panele dyskusyjne
+                </a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#hotels">
+                    Hotele
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#organizing-commitee">
+                    Organizatorzy
+                </a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#scientific-commitee">
+                    Komitet naukowy
+                </a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#sponsors">
+                    Sponsorzy
+                </a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#patrons">
+                    Patroni
+                </a
+                >
+            </li>
+        </ul>
+    </div>
+    <div class="main px-md-5 px-2 flex-fill m-0" id="main-content">
+        <section id="home">
+            <h5>O konferencji</h5>
+            <p>
+                Serdecznie zapraszamy na drugą edycję konferencji Pakt dla Mokradeł,
+                której celem będzie dyskusja nad kluczową rolą, jaką mokradła
+                odgrywają w ochronie bioróżnorodności, łagodzeniu skutków zmiany
+                klimatu i utrzymaniu usług ekosystemowych.
+            </p>
+            <p>
+                Niniejsze spotkanie naukowców i praktyków ma integrować ekspertów,
+                naukowców, przedstawicieli administracji państwowej i organizacji
+                pozarządowych, aktywistów, przedstawicieli biznesu oraz pasjonatów
+                ochrony środowiska, aby umożliwić wymianę wiedzy oraz stworzyć
+                przestrzeń do dyskusji nad aktualnymi problemami i wyzwaniami w
+                ochronie mokradeł, projektach odtwarzania, zagospodarowania, oraz
+                ramach politycznych niezbędnych do ochrony tych wyjątkowych
+                ekosystemów.
+            </p>
+            <p>
+                Będziemy rozmawiać o torfowiskach, rzekach, jeziorach, obszarach
+                nadmorskich, mokradłach miejskich, leśnych oraz tych w krajobrazie
+                rolniczym. Sesje będą poświęcone m.in. zmianie klimatu, globalnemu
+                ociepleniu, paleoklimatologii, paleoekologii, archeologii mokradeł,
+                monitoringowi przyrodniczemu, badaniom eksperymentalnym, ochronie
+                mokradeł w lasach, aktom prawnym, m.in. Nature Restoration Law,
+                Green Deal, restytucji mokradeł, rolnictwu bagiennemu oraz usługom
+                ekosystemowym.
+            </p>
+            <p>
+                Uczestnicy będą mieli okazję wziąć udział w wykładach, sesjach
+                posterowych, spotkaniach z ekspertami, panelach dyskusyjnych,
+                warsztatach i wystawach tematycznych. Jest to wyjątkowa okazja do
+                nawiązania kontaktów i współpracy nad innowacyjnymi rozwiązaniami na
+                rzecz ochrony mokradeł dla przyszłych pokoleń.
+            </p>
+            <p>Zachęcamy do rejestracji poprzez formularz w zakładce <a href="#registration">Zgłoszenia</a> i do
+                dołączenia do oficjalnej strony <a href="https://fb.me/e/5NFMn2664" target="_blank">wydarzenia na
+                    Facebooku.</a></p>
+            <p style="font-weight: 500;">Komitet organizacyjny</p>
+            <h5 class="mt-5 mb-4">Patronat honorowy</h5>
+            <p class="text-center">
+                Konferencja odbędzie się pod honorowym patronatem
+                <br>
+                JM Rektor Uniwersytetu im. Adama Mickiewicza w Poznaniu
+                <br>
+                Prof. dr hab. Bogumiły Kaniewskiej
+                <br>
+                oraz
+                <br>
+                JM Rektora Uniwersytetu Przyrodniczego w Poznaniu
+                <br>
+                Prof. dr hab. Krzysztofa Szoszkiewicza
+                <br>
+            </p>
+            <h5>Kontakt</h5>
+            <p>
+                <a href="mailto:paktdlamokradel2025@gmail.com">paktdlamokradel2025@gmail.com</a>
+            </p>
+        </section>
+        <section id="news">
+            <h5>Aktualności</h5>
+            <p>W tym miejscu będziemy zamieszczać komunikaty i najważniejsze informacje dotyczące miejsca konferencji
+                (wskazówki dojazdu, organizacja sal itp.). Zachęcamy także do dołączenia do oficjalnej strony wydarzenia
+                na Facebooku, by być na bieżąco ze wszystkimi aktualnościami.</p>
+            <h6>Komunikat nr 1 z dnia 13 września 2024 roku</h6>
+            <p class="text-center">
+                <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_1_SAS_10_10_2024_page-0001.jpg" width="30%">
+                <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_1_SAS_10_10_2024_page-0002.jpg" width="30%">
+                <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_1_SAS_10_10_2024_page-0003.jpg" width="30%">
+            </p>
+            <p class="py-3">Komunikat można pobrać w formacie <a href="/docs/KOMUNIKAT_1_SAS_10_10_2024.pdf">pdf.</a>
+            </p>
+            <h6>Komunikat nr 2 z dnia 15 listopada 2024 roku</h6>
+            <p class="text-center">
+                <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_2_PAKT_2025-1.png" width="30%">
+                <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_2_PAKT_2025-2.png" width="30%">
+                <img class="m-1 thumbnail" src="/docs/KOMUNIKAT_2_PAKT_2025-3.png" width="30%">
+            </p>
+            <p class="py-3">Komunikat można pobrać w formacie <a href="/docs/KOMUNIKAT_2_PAKT_2025.pdf">pdf.</a>
+            </p>
+        </section>
+        <section id="program">
+            <h5>Program Ramowy Konferencji Pakt dla Mokradeł 2025, Poznań</h5>
+            <p>Termin: 3-5 lutego 2025</p>
+            <p>Miejsce: Wydział Archeologii UAM</p>
+
+            <h6>Dzień 1 - 3 lutego 2025 (poniedziałek)</h6>
+
+            <table class="table table-sm">
+                <tr>
+                    <td>8:00-9:00</td>
+                    <td>Rejestracja uczestników i wydanie materiałów konferencyjnych</td>
+                </tr>
+                <tr>
+                    <td>9:00-9:30</td>
+                    <td>Oficjalne otwarcie konferencji — przywitanie uczestników przez organizatorów</td>
+                </tr>
+                <tr>
+                    <td>9:30-11:00</td>
+                    <td>Sesja plenarna I (3 referaty)</td>
+                </tr>
+                <tr>
+                    <td>11:00-11:30</td>
+                    <td>Przerwa na kawę</td>
+                </tr>
+                <tr>
+                    <td>11:30-12:30</td>
+                    <td>Sesje referatowe</td>
+                </tr>
+                <tr>
+                    <td>12:30-13:30</td>
+                    <td>Obiad</td>
+                </tr>
+                <tr>
+                    <td>13:30-14:30</td>
+                    <td>Sesje referatowe</td>
+                </tr>
+                <tr>
+                    <td>14:30-15:00</td>
+                    <td>Przerwa na kawę</td>
+                </tr>
+                <tr>
+                    <td>15:00-16:00</td>
+                    <td>Sesje referatowe</td>
+                </tr>
+                <tr>
+                    <td>16:00-16:30</td>
+                    <td>Przerwa na kawę</td>
+                </tr>
+                <tr>
+                    <td>16:30-18:00</td>
+                    <td>Panel dyskusyjny</td>
+                </tr>
+            </table>
+
+            <h6>Dzień 2 - 4 lutego 2025 (wtorek)</h6>
+
+            <table class="table table-sm">
+
+                <tr>
+                    <td>9:00-10:30</td>
+                    <td>Sesja plenarna II (3 referaty)</td>
+                </tr>
+                <tr>
+                    <td>10:30-11:00</td>
+                    <td>Przerwa na kawę</td>
+                </tr>
+                <tr>
+                    <td>11:00-11:30</td>
+                    <td>Sesje referatowe</td>
+                </tr>
+                <tr>
+                    <td>11:30-12:30</td>
+                    <td>Obiad</td>
+                </tr>
+                <tr>
+                    <td>12:30-13:30</td>
+                    <td>Sesje referatowe</td>
+                </tr>
+                <tr>
+                    <td>13:30-14:00</td>
+                    <td>Przerwa na kawę</td>
+                </tr>
+                <tr>
+                    <td>14:00-15:00</td>
+                    <td>Sesje referatowe</td>
+                </tr>
+                <tr>
+                    <td>15:00-15:30</td>
+                    <td>Przerwa na kawę</td>
+                </tr>
+                <tr>
+                    <td>15:30-17:00</td>
+                    <td>Panel dyskusyjny</td>
+                </tr>
+                <tr>
+                    <td>17:00-18:00</td>
+                    <td>Dyskusja podsumowująca</td>
+                </tr>
+                <tr>
+                    <td>18:00-18:30</td>
+                    <td>Zakończenie konferencji i podziękowania</td>
+                </tr>
+            </table>
+
+            <h6>Dzień 3 - 5 lutego 2025 (środa)</h6>
+            <table class="table table-sm">
+                <tr>
+                    <td>8:30-16:00</td>
+                    <td>Wycieczka: „Torfowisko Rzecin — paleoekologia, eksperyment, monitoring" oraz "Przyszłość
+                        archeologii leży w bagnie, czyli badania megalitycznych grobowców kultury pucharów lejkowatych".
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="registration">
+            <h5>Zgłoszenia</h5>
+            <p>
+                Jeśli chcesz wziąć udział w konferencji Pakt dla Mokradeł,
+                zapraszamy do wypełnienia
+                <a href="
+                    https://docs.google.com/forms/d/e/1FAIpQLSdrOOe3vEtYVIZoZ_Rnyqd6YwouZKaA62dcPZ0mAbCynuHKIA/viewform?usp=sf_link">
+                    formularza zgłoszeniowego.
+                </a>
+            </p>
+            <p>
+                Na zgłoszenia czekamy do
+                <b>25 listopada 2024</b>
+                roku.
+            </p>
+            <p>
+                Abstrakty wystąpień referatowych, jak i plakatowych przyjmujemy do
+                <b>30 grudnia 2024</b>
+                roku. Należy je przesłać na adres mailowy konferencji <a href="mailto:paktdlamokradel2025@gmail.com">paktdlamokradel2025@gmail.com</a>
+                zgodnie z szablonem <a href="assets/Abstrakt_wzor_pakt_2025.docx">Abstrakt_wzor_pakt_2025.docx</a>.
+            </p>
+            <h5>Koszt</h5>
+            <p>
+                Koszt uczestnictwa w konferencji wynosi
+                <b>350 zł.</b>
+                Opłata uwzględnia koszty organizacyjne, pakiet materiałów konferencyjnych, obiady i przerwy na kawę.
+            </p>
+            <p>
+                Opłata dla studentów i doktorantów wynosi
+                <b>200 zł.</b>
+            </p>
+            <h5>Dane do przelewu</h5>
+            <p>Dane do przelewu krajowego:</p>
+            <p><b>Numer rachunku odbiorcy:</b> 21 1020 4027 0000 1402 0430 0448</p>
+            <p><b>Nazwa odbiorcy:</b> STOWARZYSZENIE ARCHEOLOGII ŚRODOWISKOWEJ</p>
+            <p><b>Nazwa banku:</b> Powszechna Kasa Oszczędności Bank Polski SA</p>
+            <p><b>Kod BIC (Swift) banku:</b> BPKOPLPW</p>
+            <p><b>Tytuł przelewu:</b> Opłata konferencyjna &lt;Imię i nazwisko uczestnika&gt;</p>
+            <br/>
+            <p>Na opłaty czekamy do <b>10 stycznia 2025 roku.</b></p>
+        </section>
+        <section id="speakers">
+            <h5>Prelegenci</h5>
+            <p>Poznaj naszych prelegentów!</p>
+            <h5>Dr Ilona Biedroń</h5>
+            <div class="d-flex flex-column flex-md-row">
+                <div class="text-center">
+                    <img class="person-img" src="/assets/speakers/ilona-biedron-mid-res.jpg">
+                </div>
+                <p>
+                    <b>Ilona Biedroń</b> — doktor nauk inżynieryjno-technicznych w dyscyplinie inżynieria środowiska,
+                    specjalizująca się w zarządzaniu zasobami wodnymi obejmującym problematykę powodzi, suszy oraz
+                    ochronę i odtwarzanie ekosystemów rzecznych. Ekspert ds. renaturyzacji wód powierzchniowych w
+                    Instytucie Meteorologii i Gospodarki Wodnej, koordynatorka projektu WaterLANDS w Centrum Ochrony
+                    Mokradeł, prezes Fundacji Zdrowa Rzeka (d. Hektary Dla Natury). Niezależna ekspert współpracująca ze
+                    środowiskiem naukowo-badawczym, organizacjami rządowymi, pozarządowymi i samorządem.
+                </p>
+            </div>
+            <h5>Viktar Fenchuk</h5>
+            <div class="d-flex flex-column flex-md-row-reverse">
+                <div class="text-center">
+                    <img class="person-img" src="/assets/speakers/viktar-fenchuk.jpg">
+                </div>
+                <p>
+                    <b>Viktar Fenchuk</b>
+                    — białoruski przyrodnik i biolog zajmującym się ochroną mokradeł. Jest byłym
+                    dyrektorem APB, partnera BirdLife International na Białorusi i liderem programu ochrony
+                    dzikiej przyrody APB - Frankfurt Zoological Society na Białorusi. Na wszystkich swoich
+                    stanowiskach Viktar pracował nad tym, aby odtwarzanie i ochrona torfowisk znajdowały się
+                    w centrum działań. Od 2010 roku Viktar kierował rozwojem i wdrażaniem programu
+                    renaturyzacji mokradeł w białoruskiej części Puszczy Białowieskiej. Praca ta zaowocowała
+                    systematycznym corocznym wdrażaniem działań renaturyzacyjnych na terenach podmokłych
+                    (w szczególności torfowiskach), które są kontynuowane do dziś. Początkowo, opierając się na
+                    polskich doświadczeniach retencji wody w Puszczy Białowieskiej prowadzonej przez PTOP,
+                    jest ona obecnie wykorzystywana jako ważny przykład do wznowienia procesu odtwarzania
+                    mokradeł w polskiej części puszczy. Stanowi również dobry przykład tego, jak współpraca
+                    transgraniczna może być ważnym czynnikiem wzajemnie wzmacniającym prace związane z
+                    odtwarzaniem terenów podmokłych. Po prześladowaniach politycznych w swojej ojczyźnie
+                    Viktar kontynuuje pracę na rzecz mokradeł w Polsce. Z uśmiechem mówi, że to dzięki ciągłej
+                    pracy z torfowiskami jego przejście z ojczyzny na emigrację było znacznie płynniejsze niż w
+                    przypadku wielu innych Białorusinów zmuszonych do relokacji. To dobry przykład na to, że
+                    jeśli raz podpiszesz pakt z torfowiskami, one będą cię wspierać.
+                </p>
+            </div>
+
+            <h5>Stefan Konczal</h5>
+            <div class="d-flex flex-column flex-md-row">
+                <div class="text-center">
+                    <img class="person-img" src="/assets/speakers/stefan-konczal.jpg">
+                </div>
+                <p>
+                    <b>Stefan Konczal</b> — leśnik, absolwent Wydziału Leśnego Akademii Rolniczej (obecnie Uniwersytet
+                    Przyrodniczy) w Poznaniu. Od ponad 40 lat związany z Borami Tucholskimi. Pracował w nadleśnictwach
+                    Przymuszewo, Trzebciny, Osie, Dąbrowa, Tuchola i Woziwoda (dwukrotnie) oraz w Zaborskim Parku
+                    Krajobrazowym i Technikum Leśnym w Tucholi. Interesuje się ochroną przyrody, ornitologią, lubi
+                    wędrówki i podróże z plecakiem. Brał czynny udział w utworzeniu kilku rezerwatów przyrody w Borach
+                    Tucholskich. Współautor publikacji „Jak chronić torfowiska w lasach”. Ostatnio zaangażowany w
+                    odtwarzanie i przywracanie torfowisk w Borach Tucholskich — działania w ramach projektu „Ochrona
+                    cennych ekosystemów Borów Tucholskich” finansowanego ze środków EOG.
+                </p>
+            </div>
+            <h5>Dr hab. Wiktor Kotowski, Prof. UW</h5>
+            <div class="d-flex flex-column flex-md-row-reverse">
+                <div class="text-center">
+                    <img class="person-img" src="/assets/speakers/wiktor-kotowski-mid-res.jpg"
+                         style="object-position:0 -20px">
+                </div>
+                <p>
+                    <b>Wiktor Kotowski</b> — naukowiec, działacz społeczny i popularyzator wiedzy w zakresie ochrony i
+                    odtwarzania mokradeł. Profesor uczelni na Wydziale Biologii Uniwersytetu Warszawskiego, prowadzi
+                    badania nad ekosystemami torfowisk niskich — podstawami zróżnicowania ich roślinności, usługami
+                    ekosystemowymi i możliwościami regeneracji. Współzałożyciel i członek Zarządu Centrum Ochrony
+                    Mokradeł oraz działacz międzynarodowych organizacji o podobnym profilu. Współautor ponad 80
+                    publikacji naukowych oraz kilkudziesięciu artykułów prasowych i licznych wystąpień medialnych.
+                    Laureat nagrody Popularyzator Nauki 2022 w kategorii naukowiec. Członek Państwowej Rady Ochrony
+                    Przyrody, w której pełni rolę przewodniczącego Komisji Ochrony Ekosystemów.
+                </p>
+            </div>
+            <h5>Dr hab. Jakub Niebieszczański, Prof. UAM</h5>
+            <div class="d-flex flex-column flex-md-row">
+                <div class="text-center">
+                    <img class="person-img" src="/assets/speakers/jakub-niebieszczanski.jpg">
+                </div>
+                <p>
+                    <b>Jakub Niebieszczański</b> — geoarcheolog pracujący na Wydziale Archeologii Uniwersytetu im. Adama
+                    Mickiewicza w Poznaniu. Specjalizuje się w badaniu związku społeczności pradziejowych (neolit, epoka
+                    brązu, epoka żelaza) i wczesnohistorycznych z otaczającym ich środowiskiem. Interesuje się zarówno
+                    wpływem warunków środowiskowych na osadnictwo, jak i tym w jaki sposób to człowiek wpływał na
+                    procesy
+                    zachodzące w przyrodzie. Uczestniczył lub prowadził projekty badawcze w Polsce, Ukrainie, na
+                    Węgrzech czy Grecji. Specjalizuje się w wierceniach archeologicznych metodą vibra-coring oraz
+                    prospekcji geofizycznej metodą magnetometryczną w poszukiwaniu stanowisk. Związany z mokradłami
+                    poprzez potencjał badawczy, jaki oferują w badaniu przeszłości człowieka i natury.
+                </p>
+            </div>
+            <h5>Dr Franziska Tanneberger</h5>
+            <div class="d-flex flex-column flex-md-row-reverse">
+                <div class="text-center">
+                    <img class="person-img" src="/assets/speakers/francizka-tanneberger.jpg">
+                </div>
+                <p>
+                    <b>Franziska Tanneberger</b> — naukowiec zajmujący się torfowiskami i wykładowca na Uniwersytecie w
+                    Greifswaldzie oraz dyrektor Greifswald Mire Centre w Niemczech. Studiowała ekologię krajobrazu i
+                    ochronę przyrody na uniwersytetach w Greifswaldzie i Reading. Jej badania
+                    obejmują bioróżnorodność torfowisk, tworzenie się torfu, paludikulturę, odtwarzanie torfowisk,
+                    usługi ekosystemowe i kredyty węglowe. Franziska jest redaktorem „European Mires Book” (2017) i
+                    koordynatorem wiodącym dla Europy Global Peatlands Assessment (2022). W latach
+                    2020/2021 przewodniczyła Radzie Przyszłości Kraju Związkowego Meklemburgii-Pomorza Przedniego, a od
+                    2023 jest członkiem German Council for Sustainable Development. Greifswald Mire Centre (GMC) jest
+                    połączeniem nauki, polityki i praktyki Uniwersytetu w Greifswaldzie,
+                    Fundacji Michaela Succowa i DUENE. W GMC pracuje około 100 ekspertów ds. torfowisk z różnych
+                    dziedzin. GMC prowadzi Global Peatland Database (GPD) i jest członkiem-założycielem Global Peatlands
+                    Initiative (GPI).
+                </p>
+            </div>
+        </section>
+        <section id="sponsors">
+            <h5>Sponsorzy</h5>
+            <p class="text-center">
+                <a href="https://www.zywiec-zdroj.pl">
+                    <img src="assets/zywiec-zdroj-logotyp-2.svg" width="50%">
+                </a>
+            </p>
+            <h5>Dołącz do grona sponsorów</h5>
+            <p>
+                Konferencja Pakt dla Mokradeł nie mogłaby się odbyć bez wsparcia
+                naszych sponsorów.
+            </p>
+            <p>
+                Dzięki ich zaangażowaniu możemy zapewnić wysoki poziom merytoryczny
+                wydarzenia oraz komfort dla wszystkich uczestników.
+            </p>
+            <p>
+                W tej sekcji znajdziesz informacje o naszych sponsorach, którzy
+                wspierają ochronę mokradeł i zrównoważony rozwój.
+            </p>
+            <p>Chcesz dołączyć do grona sponsorów? Skontaktuj się z nami!</p>
+            <p>
+                <b>
+                    Kontakt:
+                </b
+                >
+                <a href="mailto:paktdlamokradel2025@gmail.com">
+                    paktdlamokradel2025@gmail.com
+                </a
+                >
+            </p>
+        </section>
+        <section id="organizing-commitee">
+            <h5>Komitet organizacyjny</h5>
+            <ul>
+                <li>prof. dr hab. Mariusz Lamentowicz</li>
+                <li>dr hab. Bogdan H. Chojnicki, prof. UPP</li>
+            </ul>
+            <p>oraz</p>
+            <ul>
+                <li>Mariusz Bąk</li>
+                <li>Mateusz Draga</li>
+                <li>dr Kamila M. Harenda</li>
+                <li>dr Monika Karpińska-Kołaczek</li>
+                <li>dr hab. Piotr Kołaczek, prof. UAM</li>
+                <li>Hanna Machejek</li>
+                <li>dr hab. Katarzyna Marcisz, prof. UAM</li>
+                <li>dr hab. Jakub Niebieszczański, prof. UAM</li>
+                <li>Patryk Poczta</li>
+                <li>Witold Szambelan</li>
+                <li>Daria Wochal</li>
+                <li>dr Danuta Żurkiewicz</li>
+            </ul>
+            <p>
+                Kontakt:
+                <a href="mailto:paktdlamokradel2025@gmail.com">
+                    paktdlamokradel2025@gmail.com
+                </a
+                >
+            </p>
+            Partnerem Konferencji jest Centrum Ochrony Mokradeł.
+        </section>
+        <section id="scientific-commitee">
+            <h5>Komitet naukowy</h5>
+            <ul>
+                <li>prof. dr hab. Piotr Banaszuk</li>
+                <li>prof. dr hab. Klaudia Borowiak</li>
+                <li>prof. dr hab. Radosław Dobrowolski</li>
+                <li>prof. dr hab. Krzysztof Fortuniak</li>
+                <li>dr hab. Maciej Gąbka, prof. UAM</li>
+                <li>dr hab. Mateusz Grygoruk, prof. SGGW</li>
+                <li>dr hab. Iwona Hildebrandt-Radke, prof. UAM</li>
+                <li>prof. dr hab. Anna Januchta-Szostak</li>
+                <li>prof. dr hab. Radosław Juszczak</li>
+                <li>dr hab. Wiktor Kotowski, prof. UW</li>
+                <li>dr Łukasz Kozub</li>
+                <li>prof. dr hab. Andrzej Michałowski</li>
+                <li>Paweł Pawlaczyk</li>
+                <li>prof. dr hab. Grzegorz Rachlewicz</li>
+                <li>prof. dr hab. Krzysztof Szoszkiewicz</li>
+                <li>prof. dr hab. Wojciech Tylman</li>
+                <li>prof. dr hab. inż. Lesław Wołejko</li>
+            </ul>
+        </section>
+        <section id="patrons">
+            <h5>Patroni medialni</h5>
+            <p class="text-center">
+                <a href="https://epoznan.pl">
+                    <img src="assets/epoznan_logo.jpg" width="30%" class="p-2">
+                </a>
+                <a href="https://wtk.pl">
+                    <img src="assets/WTK_logotyp.jpg" width="20%" class="p-2">
+                </a>
+                <a href="https://uniwersyteckie.pl">
+                    <img src="assets/ZU.jpg" width="24%" class="p-2">
+                </a>
+                <a href="https://www.afera.com.pl/">
+                    <img src="assets/radio_afera_logo_pp.png" width="24%" class="p-2">
+                </a>
+            </p>
+        </section>
+        <section id="panels">
+            <h5>Panele dyskusyjne</h5>
+            <p>Poznaj naszych panelistów!</p>
+            <h5>Rzeki, powodzie, susze i wyzwania gospodarki wodnej</h5>
+            <ul>
+                <li>Prof. dr hab. Anna Januchta Szostak — Politechnika Poznańska</li>
+                <li>Artur Furdyna - Rewilding Oder Delta</li>
+                <li>Dr hab. Agnieszka Kolada — Zakład Ochrony Wód w Instytucie Ochrony Środowiska</li>
+                <li>Dr hab. Tomasz Kałuża, Prof. UPP — Uniwersytet Przyrodniczy w Poznaniu</li>
+                <li>Dr hab. Mateusz Grygoruk, Prof. SGGW — Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</li>
+                <li>Piotr Nieznański — Fundacja WWF Polska</li>
+            </ul>
+            <h5>Wyzwania ochrony i odtwarzania moradeł — między nauką, polityką i biznesem</h5>
+            <ul>
+                <li>Monika Łaskawska-Wolszczak — Centrum Ochrony Mokradeł</li>
+                <li>Monika Matak — Żywiec Zdrój</li>
+                <li>Prof. dr hab. Bogdan Jaroszewicz — Lasy Państwowe</li>
+                <li>Sylwia Gawrońska — Generalna Dyrekcja Ochrony Środowiska</li>
+                <li>Paweł Pawlaczyk — Klub Przyrodników</li>
+            </ul>
+        </section>
+        <section id="hotels">
+            <h5>Hotele</h5>
+
+            <p>Poniżej przedstawiamy propozycje noclegów z ofertą przygotowaną specjalnie dla uczestników
+                konferencji.</p>
+            <p>Przypominamy, że konferencja odbędzie się w dniach 3-5 lutego 2025 roku.</p>
+
+            <p>Zachęcamy do zapoznania się z <a href="#program">Programem Ramowym Konferencji</a> w celu odpowiedniego
+                dostosowania długości pobytu.
+            </p>
+
+            <h6>HL Hotel Lechicka (***)</h6>
+
+            <div class="row">
+                <div class="col-md-6 order-last order-md-first px-5 pt-3">
+                    <p class="mb-1">HL Hotel Lechicka***</p>
+                    <p class="mb-1">ul. Lechicka 101</p>
+                    <p class="mb-2">61-619 Poznań, Polska</p>
+                    <p class="mb-1"> Recepcja: <a href="tel:+48697900213">+48 697 900 213</a></p>
+                    <p class="mb-1"> Email: <a href="mailto:recepcja@hotel-lechicka.pl">recepcja@hotel-lechicka.pl</a>
+                    </p>
+                    <p class="mb-1"> Strona: <a href="https://www.hotel-lechicka.pl">www.hotel-lechicka.pl</a></p>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="/assets/hl-hotel-lechicka.png" width="100%">
+                </div>
+            </div>
+
+
+            <ul class="py-3">
+                <li>Cena za pokój jednoosobowy (bez śniadania): 239 zł za osobę za noc</li>
+                <li>Cena za pokój dwuosobowy (bez śniadania): 299 zł za osobę za noc</li>
+                <li>Cena za pokój jednoosobowy (ze śniadaniem): 289 zł za osobę za noc</li>
+                <li>Cena za pokój dwuosobowy (z 2 śniadaniami): 389 zł za osobę za noc</li>
+            </ul>
+
+            <p><b>PROSIMY O REZERWACJĘ NA HASŁO "KONFERENCJA PAKT DLA MOKRADEŁ"</b></p>
+
+        </section>
+    </div>
+    <div id="footer">
+        <img src="/assets/Logotypy_stopka_wersja_17_10_2024.png" width="100%">
+    </div>
+</div>
+<script defer src="script.js"></script>
 </body>
 </html>

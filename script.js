@@ -7,9 +7,14 @@ function updatePage() {
       if (item.getAttribute("href") === hash) {
         item.classList.add("active");
         $(hash).show();
-        
+
+        let indexTxt = index.toString();
+        if(indexTxt.length === 1){
+            indexTxt = "0" + indexTxt;
+        }
+
         $(`.header-image`).hide();
-        $(`#header-0${index}`).show();
+        $(`#header-${indexTxt}`).show();
 
 
       } else {

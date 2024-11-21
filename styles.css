@@ -66,11 +66,6 @@ p {
   font-size: 2.5rem;
 }
 
-h5 {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
 .nav-link {
   font-size: 0.8rem;
   padding-left: 0.6rem;
@@ -102,29 +97,23 @@ section {
   }
 }
 
-/* Początek stylów okna modalnego */
-
 .thumbnail {
   cursor: pointer;
 }
 
 .modal {
-  display: none; /* Ukryte domyślnie */
+  display: none; 
   position: fixed;
   z-index: 1;
   padding-top: 50px;
   left: 0;
   top: 0;
-  /* width: 100%; */
-  /* height: 100%; */
-  background-color: rgba(0, 0, 0, 0.8); /* Przyciemnione tło */
+  background-color: rgba(0, 0, 0, 0.8); 
 }
 
 #modalImage {
   margin: auto;
-  /* display: block; */
   width: 80vw;
-  /* max-height: 80%; */
 }
 
 .close {
@@ -144,15 +133,6 @@ section {
   cursor: pointer;
 }
 
-h5 {
-  background-color: #45818b;
-  padding: 0.2rem 0.5rem;
-  margin: -0.5rem;
-  color: #fff;
-  font-weight: 700 !important;
-  margin-bottom: 1rem !important;
-}
-
 .person-img {
   vertical-align: middle;
   overflow: hidden;
@@ -161,4 +141,21 @@ h5 {
   height: 150px;
   object-fit: cover;
   margin: 1rem;
+}
+
+
+h5 {
+  margin: 3rem -1rem 1rem -1rem !important;
+  background-color: #45818b;
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  font-weight: 700 !important;
+}
+
+h6 {
+  margin: 1rem 0 1rem 0;
+  background-color: #458b47;
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  font-weight: 700 !important;
 }

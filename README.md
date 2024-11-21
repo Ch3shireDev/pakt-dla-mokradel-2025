@@ -1,11 +1,12 @@
 # Konferencja Pakt dla Mokradeł, 2025
 
- Dzień dobry Panie Igorze,
+1. [x] W zakładce Program proszę o umieszczenie treści zawartej w pliku PRK.docx. - dotyczy ogólnego zarysu programu.
 
-porcja drobnych zmian na stronie:
+2. [x] Proszę o przesunięcie zakładki Panele dyskusyjne pomiędzy zakładki Prelegenci i Organizatorzy
 
-1. [x] W zakładce Zgłoszenia, na końcu sekcji Dane do przelewu, proszę o dopisanie zdania: Na opłaty czekamy do 10 stycznia 2025 roku.
-2. [x] W zakładce Panele dyskusyjne proszę o poprawę nazwiska jednej z panelistek - z Monika Łaskawska na Monika Łaskawska-Wolszczak
-3. [x] Do panelu Rzeki, powodzie, susze i wyzwania gospodarki wodnej proszę o dorzucenie jeszcze jednego panelisty: Piotr Nieznański - Fundacja WWF Polska
-4. [x] W zakładce Aktualności w sekcji Aktualności proszę o hiperłącze pod wyrażeniem wydarzenia na Facebooku, które kierować będzie do https://fb.me/e/5NFMn2664 (oficjalna strona wydarzenia na Facebooku).
-5. [x] O ile to możliwe, proszę o przywrócenie hiperłącza do zakładki Zgłoszenia w zdaniu umieszczonym w zakładce O konferencji w sekcji O konferencji: Zachęcamy do rejestracji poprzez formularz w zakładce Zgłoszenia i do dołączenia do oficjalnej strony wydarzenia na Facebooku. Wcześniej było, po ostatniej aktualizacji zniknęło.
+3. [x] Proszę o stworzenie nowej zakładki Hotele, umieszczenie jej pomiędzy zakładkami Panele dyskusyjne (po przeniesieniu, pkt 2) i Organizatorzy i wypełnienie jej treścią zawartą w pliku Hotele.docx.
+4. [x] W zakładce Hotele, w zdaniu: "Zachęcamy do zapoznania się z Programem Ramowym Konferencji w celu odpowiedniego dostosowania długości pobytu" proszę o umieszczenie linku do zakładki Program w miejscu, które zaznaczyłem na niebiesko.
+5. [ ] W zakładce Aktualności proszę o umieszczenie komunikatu nr 2, analogicznie do komunikatu nr 1.
+    - Pasek: Komunikat nr 2 z dnia 15 listopada 2024 roku
+    - Pod paskiem zdjęcia komunikatu do powiększenia // w załączeniu pliki KOM_2_1.png, KOM_2_2.png, KOM_2_3.png //
+    - Na końcu: Komunikat można pobrać w formacie pdf. // Załączyłem, plik: Komunikat 2.pdf  //
