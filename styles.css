@@ -159,3 +159,9 @@ h6 {
   color: #fff;
   font-weight: 700 !important;
 }
+
+#program table tr td:first-child {
+  font-weight: 500;
+  text-align: left;
+  width: 120px;
+}
