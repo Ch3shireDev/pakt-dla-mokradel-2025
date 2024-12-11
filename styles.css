@@ -165,3 +165,11 @@ h6 {
   text-align: left;
   width: 120px;
 }
+
+.text-justify{
+  text-align: justify;
+}
+
+.text-small{
+  font-size: 0.8rem;;
+}
