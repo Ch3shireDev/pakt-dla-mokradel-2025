@@ -173,3 +173,23 @@ h6 {
 .text-small{
   font-size: 0.8rem;;
 }
+
+.vertical-img {
+  height: 100%; 
+  object-fit: cover;
+  margin:1rem;
+}
+
+.horizontal-img {
+  object-fit: cover;
+  width: 50%;
+  margin:1rem;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+}
+.equal-height > img {
+  flex: 1 1 50%;
+}
