@@ -1,8 +1,6 @@
 # Konferencja Pakt dla Mokradeł, 2025
 
-1. [x] W zakładce Wycieczka proszę o dwóch podmianę zdjęć, które zaznaczyłem w pliku Do podmiany.png na zdjęcia Sobota_1 i Sobota_3 (w załączeniu).
-2. [x] W zakładce Konferencja w pasku Patroni honorowi proszę o zmianę kolejności patronów - najpierw UAM, potem UPP, jako trzeci Prezydent Miasta Poznania.
-3. [x] Tych samych patronów w tej samej kolejności jak powyżej proszę również o umieszczenie w zakładce Patroni pod paskiem nowym Patroni honorowi (tak, będziemy mieć ich w dwóch miejscach, ale zależy nam na wyeksponowaniu patronów honorowych).
-4. [x] W zakładce Patroni w pasku Patroni medialni proszę o umieszczenie jeszcze jednego logo - Wieści Akademickie (załączam logo w pliku WA.jpg) z linkiem do https://new.up.poznan.pl/wiesci-akademickie-kwartalnik
-5. [x] Tym samym proszę o podmianę stopki (z uwagi na dodatkowe logo) - załączam plik STOPKA_20_12_2024.pdf
-6. [ ] Do zakładki Organizatorzy proszę o dorzucenie jednego nazwiska - dr hab. Iwona Hildebrandt-Radke, prof. UAM (w miejscu za Kamilą Harendą a przed Moniką Karpińską-Kołaczek)
+1. [x] W zakładce Konferencja proszę o umieszczenie tekstu Konferencja nawiązuje do Światowego Dnia Mokradeł 2025, odbywającego się w tym roku pod hasłem „Mokradła dla naszej wspólnej przyszłości” - poniżej akapitu o treści Uczestnicy będą mieli... a przed informacją o wydarzeniu na FB.
+2. [x] Na końcu tego tekstu (za podpisem Komitet organizacyjny) proszę o umieszczenie logo i gifa Światowego Dnia Mokradeł - WWD.png i GIF.gif
+3. [x] Proszę o aktualizację programu w zakładce Program zgodnie z plikiem Program_28_12_2024.docx
+4. [x] W zakładce Patroni proszę o wymianę zdjęcia w nagłówku (powtarza się z inną zakładką) - załączam Stążka.JPG
