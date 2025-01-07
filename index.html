@@ -55,8 +55,7 @@
                 width="100%"
                 alt="Zdjęcie z drona jeziora dystroficznego z nachodzącym płem i pływającymi wyspami"
                 style="object-position: 0 0;"
-        >
-        <!-- hidden images -->
+        > 
         <img
                 id="header-01"
                 class="header-image thumbnail"
@@ -214,6 +213,15 @@
     </div>
     <div class="main px-md-5 px-2 flex-fill m-0" id="main-content">
         <section id="home">
+            <h5>Odliczanie</h5>
+            <div id="timer" style="visibility: hidden;">
+                Do rozpoczęcia konferencji pozostało 
+                <span id="timer-days">100</span> dni, 
+                <span id="timer-hours">12</span> godzin, 
+                <span id="timer-minutes">34</span> minut i
+                <span id="timer-seconds">56</span> sekund.
+        </div>
+
             <h5>O konferencji</h5>
             <p>
                 Serdecznie zapraszamy na drugą edycję konferencji Pakt dla Mokradeł,
@@ -915,5 +923,26 @@ Odwołując się do tematu naszej konferencji <b>OCHRONA TERENÓW PODMOKŁYCH DL
     </div>
 </div>
 <script defer src="script.js"></script>
+<script defer>
+    const endingDate = new Date("2025-02-03T00:08:00Z");
+    
+    // each passing second, update the countdown
+    setInterval(() => {
+        const now = new Date();
+        const diff = endingDate - now;
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        
+        document.getElementById("timer-days").innerHTML = days;
+        document.getElementById("timer-hours").innerHTML = hours;
+        document.getElementById("timer-minutes").innerHTML = minutes;
+        document.getElementById("timer-seconds").innerHTML = seconds;
+
+        document.getElementById("timer").style.visibility = "visible";
+
+    }, 1000);
+</script>
 </body>
 </html>
