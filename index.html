@@ -34,6 +34,7 @@
             crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
             integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+   
 </head>
 <body class="d-flex flex-column">
 <div id="myModal" class="modal">
@@ -154,6 +155,9 @@
                 <a class="nav-link" aria-current="page" href="#news">Aktualności</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#location">Lokalizacja</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#program">Program</a>
             </li>
             <li class="nav-item">
@@ -215,11 +219,13 @@
         <section id="home">
             <h5>Odliczanie</h5>
             <div id="timer" style="visibility: hidden;">
-                Do rozpoczęcia konferencji pozostało 
+                Do rozpoczęcia konferencji pozostało:
+                <p style="font-weight: 600;">
                 <span id="timer-days">100</span> dni, 
                 <span id="timer-hours">12</span> godzin, 
                 <span id="timer-minutes">34</span> minut i
                 <span id="timer-seconds">56</span> sekund.
+            </p>
         </div>
 
             <h5>O konferencji</h5>
@@ -259,7 +265,7 @@
             <p>
                 Konferencja nawiązuje do Światowego Dnia Mokradeł 2025, odbywającego się w tym roku pod hasłem „Mokradła dla naszej wspólnej przyszłości”.
             </p>
-            <p>Zachęcamy do dołączenia do oficjalnej strony <a href="https://fb.me/e/5NFMn2664" target="_blank">wydarzenia na
+            <p>Zachęcamy do dołączenia do <a href="https://fb.me/e/5NFMn2664" target="_blank">oficjalnej strony wydarzenia na
                     Facebooku.</a></p>
             <p style="font-weight: 500;">Komitet organizacyjny</p>
 
@@ -323,10 +329,72 @@
             <p class="py-3">Komunikat można pobrać w formacie <a href="/docs/KOMUNIKAT_2_PAKT_2025.pdf">pdf.</a>
             </p>
         </section>
+        <section id="location">
+            <h5>Lokalizacja konferencji</h5>
+            <p><b>Miejsce konferencji:</b></p>
+<p>Wydział Archeologii<br>
+Uniwersytet im. Adama Mickiewicza w Poznaniu<br>
+Kampus Morasko</p>
+
+<p>
+ul. Uniwersytetu Poznańskiego 7,<br>
+61-614 Poznań
+</p>
+
+<h6>Mapa</h6>
+<gmp-map
+  center="52.4665309,16.9234291"
+  zoom="15"
+  map-id="pakt-dla-mokradel"
+  style="height: 600px; margin-top: 1rem; margin-bottom: 1rem;"
+>
+<gmp-advanced-marker
+position="52.4665309,16.9234291"
+title="Miejsce konferencji"
+></gmp-advanced-marker> 
+</gmp-map>
+<h6>Wskazówki dojazdu</h6>
+
+<p>Z dworca kolejowego Poznań Główny:</p>
+<ul>
+    
+        <li>Przystanek Poznań Główny-Poznań Main Station - tramwaj nr 12</li>
+        <li>Przystanek Dworzec Zachodni - tramwaje nr 12 i 14</li>
+</ul>
+
+<p>Z dworca autobusowego:</p>
+
+<ul>
+    
+        <li>Przystanek Poznań Główny-Poznań Main Station - tramwaj nr 12</li>
+        <li>Przystanek Dworzec Zachodni - tramwaje nr 12 i 14</li>
+</ul>
+
+<p>Bilety na komunikację miejską zakupisz w biletomatach na przystankach, w aplikacji Jakdojadę.pl, w aplikacjach bankowych. </p>
+<p>
+    
+    Możesz także wziąć taksówkę z dworca lub skorzystać z aplikacji Uber, Bolt, FreeNow.
+</p>
+<p>
+    
+    Przy Wydziale Archeologii znajduje się bezpłatny parking - w przypadku podróży samochodem.
+</p>
+
+
+        </section>
         <section id="program">
             <h5>Program Ramowy Konferencji Pakt dla Mokradeł 2025, Poznań</h5>
             <p>Termin: 3-5 lutego 2025</p>
             <p>Miejsce: Wydział Archeologii UAM</p>
+
+<p>Do pobrania:</p>
+<ul>
+    <li><a href="./docs/Szczegolowy-program-konferencji-1-dzien.pdf">Szczegółowy program konferencji - 1. dzień</a></li>
+    <li><a href="./docs/Szczegolowy-program-konferencji-2-dzien.pdf">Szczegółowy program konferencji - 2. dzień</a></li>
+    <li><a href="./docs/Szczegolowy-program-konferencji-3-dzien.pdf">Szczegółowy program konferencji - 3. dzień</a></li>
+    <li><a href="./docs/Lista-posterow.pdf"><b>Lista posterów</b></a></li>
+</ul>
+
 
             <h6>Dzień 1 - 3 lutego 2025 (poniedziałek)</h6>
 
@@ -919,12 +987,12 @@ Odwołując się do tematu naszej konferencji <b>OCHRONA TERENÓW PODMOKŁYCH DL
         </section>
     </div>
     <div id="footer">
-        <img src="/assets/STOPKA_20_12_2024.jpg" width="100%">
+        <img src="/assets/STOPKA_13_01_2025.jpg" width="100%">
     </div>
 </div>
 <script defer src="script.js"></script>
 <script defer>
-    const endingDate = new Date("2025-02-03T00:08:00Z");
+    const endingDate = new Date("2025-02-03T08:00:00Z");
     
     // each passing second, update the countdown
     setInterval(() => {
@@ -943,6 +1011,9 @@ Odwołując się do tematu naszej konferencji <b>OCHRONA TERENÓW PODMOKŁYCH DL
         document.getElementById("timer").style.visibility = "visible";
 
     }, 1000);
+</script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjXTrCVMfd66K5XqiqRiolYhBDTfTjFrA&loading=async&libraries=maps&v=beta&libraries=marker" defer>
 </script>
 </body>
 </html>
