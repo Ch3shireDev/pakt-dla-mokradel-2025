@@ -1,34 +1,12 @@
 # Konferencja Pakt dla Mokradeł, 2025
 
-1. [x] W zakładce Światowy Dzień Mokradeł zmiany redakcyjne:
 
-   Jest: Zachęcamy Państwa do obejrzenia filmów z naszym udziałem o cennej roli obszarów podmokłych w przyrodzie przygotowanych z okazji wcześniejszych edycji obchodów Światowego Dnia Mokradeł.
+1. [x] Utworzenie nowej zakładki Poznań miastem Ramsar i umieszczenie w niej treści zawartej w pliku Poznań_Ramsar.docx
 
-   Powinno być: Zachęcamy Państwa do obejrzenia filmów z naszym udziałem o cennej roli mokradeł w przyrodzie przygotowanych z okazji wcześniejszych edycji obchodów Światowego Dnia Mokradeł.
+2. [ ] Po tekście prosimy o umieszczenie filmu Ramsar Sites 2025.mov, do którego udostępniam link na naszym dysku Google: https://drive.google.com/file/d/10kt6VxTyhy2ADntjywv2LlCU3t-oakHx/view?usp=drive_link, jeśli jest możliwość umieszczenia tego filmu na serwerze, na którym umieszczona jest strona.
 
-2. [x] W zakładce Panele dyskusyjne (Panel dyskusyjny II, drugi punkt):
+3. [x] Do nagłówka zakładki dosyłam zdjęcie Poznań miastem Ramsar.JPG
 
-   Jest: Robert Czerniawski — Instytut Meteorologii i Gospodarki Wodnej
+4. [x] Proszę o aktualizację zakładki Panele dyskusyjne na podstawie pliku Panele - lista alfabetyczna_26_01_2025.docx. Zmiany zaznaczyłem na czerwono.
 
-   Powinno być: Robert Czerniawski — Uniwersytet Szczeciński
-
-3. [x] W zakładce Aktualności (Komunikat dotyczący organizacji sesji posterowych):
-
-   Jest: Lista prezentowanych posterów znajduje się w zakładce Program (tu link do zakładki).
-
-   Powinno być: Lista prezentowanych posterów znajduje się w zakładce Program. <---------- link do zakładki program
-
-4. [x] W zakładce Aktualności (Komunikat dotyczący organizacji sesji posterowych):
-
-    Jest: postery 31-38 wtorek g. 10:30-11:00.
-
-    Powinno być: postery 31-39 wtorek g. 10:30-11:00.
-
-5. [x] W zakładce Aktualności po zmianie kolejności komunikatów na dole strony pozostały luźno rozmieszczone linki do pobrania w formacie pdf (PATRZ: Komunikat można pobrać w formacie pdf.). Proszę o stosowne ustawienie.
-
-
-6. [x] W zakładce Światowy Dzień Mokradeł pod filmami proszę o umieszczenie treści z linkiem:
-
-    Więcej o Światowym Dniu Mokradeł na oficjalnej, międzynarodowej stronie wydarzenia: https://www.worldwetlandsday.org/
-
-7. [ ] W zakładce Lokalizacja proszę o umieszczenie zielonej treści z pliku Lokalizacja konferencji.docx. Przy okazji ostatniej aktualizacji strony część info umknęła.
+5. [x] Proszę o aktualizację plików programu w zakładce Program - Szczegółowy program konferencji - 1. dzień i Szczegółowy program konferencji - 2. dzień. Załączam pliki: Szczegółowy program konferencji - 1. dzień.pdf i Szczegółowy program konferencji - 2.dzień.pdf (w związku z aktualizacją panelistów powyżej).
