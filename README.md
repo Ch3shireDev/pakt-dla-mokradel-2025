@@ -1,12 +1,12 @@
-# Konferencja Pakt dla Mokradeł, 2025
+# Konferencja Pakt dla Mokradeł
+	
+1. [x] Proszę o aktualizację zakładki Panele dyskusyjne zgodnie z plikiem Panele - lista alfabetyczna_30_01_2025.docx. Zmiany zaznaczyłem na czerwono.
+2. [x] Proszę o aktualizację plików programu (dzień 1 i dzień 2) w zakładce Program. Załączam pliki: Szczegółowy program konferencji - 1.dzień.pdf i Szczegółowy program konferencji - 2.dzień.pdf
+3. [x] Proszę o aktualizację zakładki Organizatorzy. Doszła Pani Aleksandra Godek - proszę o aktualizację zgodnie z kolejnością alfabetyczną.
+4. [x] W zakładce Światowy Dzień Mokradeł proszę o stworzenie paska Wydarzenia i umieszczenie w nim tekstu:
 
+    Światowy Dzień Mokradeł to szereg wydarzeń na całym świecie. Zachęcamy Państwa do odwiedzin strony internetowej https://www.worldwetlandsday.org/events, żeby zapoznać się z innymi wydarzeniami. Znajdą tam również Państwo wzmiankę (pod słowem wzmianka hiperlink: https://www.worldwetlandsday.org/display-event?p_p_id=eventDisplay&redirect=https%3A%2F%2Fwww.worldwetlandsday.org%2Fevents&eventEntryId=1686268) o naszej konferencji.
 
-1. [x] Utworzenie nowej zakładki Poznań miastem Ramsar i umieszczenie w niej treści zawartej w pliku Poznań_Ramsar.docx
+    Zachęcamy także do przeczytania komunikatu (tutaj proszę podłączyć plik - WWD2025 SG Statement.pdf) wydanego przez Sekretarz Generalną Konwencji Ramsarskiej Dr Musondę Mumbę i przygotowanego specjalnie z okazji tegorocznych obchodów.
 
-2. [x] Po tekście prosimy o umieszczenie filmu Ramsar Sites 2025.mov, do którego udostępniam link na naszym dysku Google: https://drive.google.com/file/d/10kt6VxTyhy2ADntjywv2LlCU3t-oakHx/view?usp=drive_link, jeśli jest możliwość umieszczenia tego filmu na serwerze, na którym umieszczona jest strona.
-
-3. [x] Do nagłówka zakładki dosyłam zdjęcie Poznań miastem Ramsar.JPG
-
-4. [x] Proszę o aktualizację zakładki Panele dyskusyjne na podstawie pliku Panele - lista alfabetyczna_26_01_2025.docx. Zmiany zaznaczyłem na czerwono.
-
-5. [x] Proszę o aktualizację plików programu w zakładce Program - Szczegółowy program konferencji - 1. dzień i Szczegółowy program konferencji - 2. dzień. Załączam pliki: Szczegółowy program konferencji - 1. dzień.pdf i Szczegółowy program konferencji - 2.dzień.pdf (w związku z aktualizacją panelistów powyżej).
+5. [x] do maila z rana dosyłam jeszcze jedną prośbą, o umieszczenie Książki abstraktów w plikach do pobrania w zakładce Program. Załączam plik Książka abstraktów.pdf
